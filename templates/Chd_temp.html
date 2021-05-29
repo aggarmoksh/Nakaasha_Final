@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Geo Location Analysis</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <nav class="purple darken-4 accent-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center red-text">Geo Location Analysis</h1>
+      <div class="row center">
+        <h5 class="header col s12 light black-text">Wanna know what's nearby ,hit us up with your location below !
+        <br>
+        </h5>
+      </div>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="/CMap1">Hyatt Regency</a></li>
+    <li><a href="/CMap2">Barbecue Nation</a></li>
+    <li><a href="/CMap3">Boathouse</a></li>
+  </ul>
+</div>
+<div class="row">
+    <form action='/CMap1' method="post" class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+           <button type="submit" class="btn-large waves-effect waves-light lamber lighten-1">Hyatt Regency</button>
+        </div>
+        </form>
+      <form action='/CMap2' method="post" class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+           <button type="submit" class="btn-large waves-effect waves-light lamber lighten-1"> Barbecue Nation </button>
+        </div>
+        </form>
+
+   <form action='/CMap3' method="post" class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+           <button type="submit" class="btn-large waves-effect waves-light lamber lighten-1">Boathouse</button>
+        </div>
+        </form>
+      
+    </form>
+      </div>
+      <div class="dark-text">
+      <br>
+        <h4>{{pred}}</h4><br>
+      </div>
+    </div>
+  </div>
+
+
+    <br><br>
+  </div>
+  </div>>
+
+  <footer class="page-footer light-blue lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">What we do</h5>
+          <p class="grey-text text-lighten-4">Now, imagine a scenario where a person has newly moved into a new location. They already have certain preferences, certain tastes. 
+            It would save both the student and the food providers a lot of hassle if the student lived close to their preferred outlets.
+           Convenience means better sales, and saved time for the customer.</p>
+        </div>
+        
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div> 
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../static/js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </div>
+  </body>
+</html>

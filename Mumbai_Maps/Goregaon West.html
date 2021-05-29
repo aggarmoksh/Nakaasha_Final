@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_32c519ddd95d4cb8aba117c4d24abd2f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_32c519ddd95d4cb8aba117c4d24abd2f" ></div>
+        
+</body>
+<script>    
+    
+            var map_32c519ddd95d4cb8aba117c4d24abd2f = L.map(
+                "map_32c519ddd95d4cb8aba117c4d24abd2f",
+                {
+                    center: [19.159676, 72.848553],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b6aa0046bf0c47d4b0dea741e3e54e4f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_32c519ddd95d4cb8aba117c4d24abd2f);
+        
+    
+            var circle_marker_d2aa73c4de4e46ba96239ce44b44372d = L.circleMarker(
+                [19.162545218846432, 72.84658623279893],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_32c519ddd95d4cb8aba117c4d24abd2f);
+        
+    
+        var popup_dea7307d7ddb4bb9806140d5395b141a = L.popup({"maxWidth": 300});
+
+        
+            var html_fc10e091c2374f368f787b1bff010730 = $(`<div id="html_fc10e091c2374f368f787b1bff010730" style="width: 100.0%; height: 100.0%;">Sudama Restaurant</div>`)[0];
+            popup_dea7307d7ddb4bb9806140d5395b141a.setContent(html_fc10e091c2374f368f787b1bff010730);
+        
+
+        circle_marker_d2aa73c4de4e46ba96239ce44b44372d.bindPopup(popup_dea7307d7ddb4bb9806140d5395b141a)
+        ;
+
+        
+    
+    
+            var circle_marker_616ab6a8824246c5bd77b3f032e7ee55 = L.circleMarker(
+                [19.157016613722135, 72.84606972745243],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_32c519ddd95d4cb8aba117c4d24abd2f);
+        
+    
+        var popup_6a56f0b0df1e439491b7a7d93f016b7a = L.popup({"maxWidth": 300});
+
+        
+            var html_70e0c7ffadb94e9c9057e4fae74b7f25 = $(`<div id="html_70e0c7ffadb94e9c9057e4fae74b7f25" style="width: 100.0%; height: 100.0%;">Vasu Sandwitch</div>`)[0];
+            popup_6a56f0b0df1e439491b7a7d93f016b7a.setContent(html_70e0c7ffadb94e9c9057e4fae74b7f25);
+        
+
+        circle_marker_616ab6a8824246c5bd77b3f032e7ee55.bindPopup(popup_6a56f0b0df1e439491b7a7d93f016b7a)
+        ;
+
+        
+    
+    
+            var circle_marker_37458b2ee62b4dd8973aae32cea60558 = L.circleMarker(
+                [19.15886469492416, 72.84602357050801],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_32c519ddd95d4cb8aba117c4d24abd2f);
+        
+    
+        var popup_4d2d8e3d95b74751889f35c001dd03a1 = L.popup({"maxWidth": 300});
+
+        
+            var html_21e0015581a544dd90162f27c3e2e31d = $(`<div id="html_21e0015581a544dd90162f27c3e2e31d" style="width: 100.0%; height: 100.0%;">Swami Fast Food, S V Road, Goregaon west</div>`)[0];
+            popup_4d2d8e3d95b74751889f35c001dd03a1.setContent(html_21e0015581a544dd90162f27c3e2e31d);
+        
+
+        circle_marker_37458b2ee62b4dd8973aae32cea60558.bindPopup(popup_4d2d8e3d95b74751889f35c001dd03a1)
+        ;
+
+        
+    
+    
+            var circle_marker_bc479c57f2894ab6825fc642016713a0 = L.circleMarker(
+                [19.16312056540518, 72.84584399117347],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_32c519ddd95d4cb8aba117c4d24abd2f);
+        
+    
+        var popup_74a0acd1ac924cf1ad01da7dd117d7da = L.popup({"maxWidth": 300});
+
+        
+            var html_3e5aee387f594151b5560924d7ab69c0 = $(`<div id="html_3e5aee387f594151b5560924d7ab69c0" style="width: 100.0%; height: 100.0%;">Domino's Pizza</div>`)[0];
+            popup_74a0acd1ac924cf1ad01da7dd117d7da.setContent(html_3e5aee387f594151b5560924d7ab69c0);
+        
+
+        circle_marker_bc479c57f2894ab6825fc642016713a0.bindPopup(popup_74a0acd1ac924cf1ad01da7dd117d7da)
+        ;
+
+        
+    
+    
+            var feature_group_39365863565c431785221e3e00547caa = L.featureGroup(
+                {}
+            ).addTo(map_32c519ddd95d4cb8aba117c4d24abd2f);
+        
+</script>

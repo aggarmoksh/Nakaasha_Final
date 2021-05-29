@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_42f055bca93d474087b41101b4f3f38a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_42f055bca93d474087b41101b4f3f38a" ></div>
+        
+</body>
+<script>    
+    
+            var map_42f055bca93d474087b41101b4f3f38a = L.map(
+                "map_42f055bca93d474087b41101b4f3f38a",
+                {
+                    center: [30.734398, 76.770278],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1a0b89c91ef44a8c9e75852130561070 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_42f055bca93d474087b41101b4f3f38a);
+        
+    
+            var circle_marker_23d4ddc92feb465e91660ed38fa3db45 = L.circleMarker(
+                [30.73276012050352, 76.77106957751765],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_42f055bca93d474087b41101b4f3f38a);
+        
+    
+        var popup_06ce8f5402f34cada1258793c4ecd3a8 = L.popup({"maxWidth": 300});
+
+        
+            var html_abd6c154049247a9999a66a1de11847b = $(`<div id="html_abd6c154049247a9999a66a1de11847b" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day</div>`)[0];
+            popup_06ce8f5402f34cada1258793c4ecd3a8.setContent(html_abd6c154049247a9999a66a1de11847b);
+        
+
+        circle_marker_23d4ddc92feb465e91660ed38fa3db45.bindPopup(popup_06ce8f5402f34cada1258793c4ecd3a8)
+        ;
+
+        
+    
+    
+            var circle_marker_4de65e4ae5764490a99c1a8d8e4def19 = L.circleMarker(
+                [30.731932330037996, 76.772743083799],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_42f055bca93d474087b41101b4f3f38a);
+        
+    
+        var popup_3bb4222c445a41c881f65e56179e91c3 = L.popup({"maxWidth": 300});
+
+        
+            var html_97ca501def344d54a834bfa7c831faa8 = $(`<div id="html_97ca501def344d54a834bfa7c831faa8" style="width: 100.0%; height: 100.0%;">Baskin-Robbins</div>`)[0];
+            popup_3bb4222c445a41c881f65e56179e91c3.setContent(html_97ca501def344d54a834bfa7c831faa8);
+        
+
+        circle_marker_4de65e4ae5764490a99c1a8d8e4def19.bindPopup(popup_3bb4222c445a41c881f65e56179e91c3)
+        ;
+
+        
+    
+    
+            var circle_marker_5d822437db0d4b1fbca1f6a797fcb924 = L.circleMarker(
+                [30.732246769336104, 76.77066648120754],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_42f055bca93d474087b41101b4f3f38a);
+        
+    
+        var popup_a71632e6106a4531a60ddf851461eca2 = L.popup({"maxWidth": 300});
+
+        
+            var html_8430efa395fb4e50a3877ab10d23b375 = $(`<div id="html_8430efa395fb4e50a3877ab10d23b375" style="width: 100.0%; height: 100.0%;">Shastri Market</div>`)[0];
+            popup_a71632e6106a4531a60ddf851461eca2.setContent(html_8430efa395fb4e50a3877ab10d23b375);
+        
+
+        circle_marker_5d822437db0d4b1fbca1f6a797fcb924.bindPopup(popup_a71632e6106a4531a60ddf851461eca2)
+        ;
+
+        
+    
+    
+            var circle_marker_4d6754228a614563acbb0c37cf244549 = L.circleMarker(
+                [30.73600905855485, 76.76896216738565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_42f055bca93d474087b41101b4f3f38a);
+        
+    
+        var popup_91c78f963c2d4b2d84ceef897ac29448 = L.popup({"maxWidth": 300});
+
+        
+            var html_24e48508983740bca2b9db1cd63519fd = $(`<div id="html_24e48508983740bca2b9db1cd63519fd" style="width: 100.0%; height: 100.0%;">Kasauli Broilers</div>`)[0];
+            popup_91c78f963c2d4b2d84ceef897ac29448.setContent(html_24e48508983740bca2b9db1cd63519fd);
+        
+
+        circle_marker_4d6754228a614563acbb0c37cf244549.bindPopup(popup_91c78f963c2d4b2d84ceef897ac29448)
+        ;
+
+        
+    
+    
+            var feature_group_acc8892042234677afcfc997ade2c979 = L.featureGroup(
+                {}
+            ).addTo(map_42f055bca93d474087b41101b4f3f38a);
+        
+</script>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_be6dc23ad2124f71ae891a647d14d65d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_be6dc23ad2124f71ae891a647d14d65d" ></div>
+        
+</body>
+<script>    
+    
+            var map_be6dc23ad2124f71ae891a647d14d65d = L.map(
+                "map_be6dc23ad2124f71ae891a647d14d65d",
+                {
+                    center: [18.514801565218352, 73.86595844964411],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d75b1b246ba140d79bcd80a4b0a9f91f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+    
+            var circle_marker_710d7490e4b648e29372c7ec560ddab7 = L.circleMarker(
+                [18.51604077781614, 73.86331178368033],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+    
+        var popup_7a482bb434e84a63a8b63ca31c96f145 = L.popup({"maxWidth": 300});
+
+        
+            var html_a9706471629748c6b52d6d58ea85f3a6 = $(`<div id="html_a9706471629748c6b52d6d58ea85f3a6" style="width: 100.0%; height: 100.0%;">ZOPDI MISAL</div>`)[0];
+            popup_7a482bb434e84a63a8b63ca31c96f145.setContent(html_a9706471629748c6b52d6d58ea85f3a6);
+        
+
+        circle_marker_710d7490e4b648e29372c7ec560ddab7.bindPopup(popup_7a482bb434e84a63a8b63ca31c96f145)
+        ;
+
+        
+    
+    
+            var circle_marker_8a3030627ae443afbc0bc53a652ed445 = L.circleMarker(
+                [18.511801692750115, 73.86552572250366],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+    
+        var popup_2cfc7f84ea4a47bb8cb196a5cc231186 = L.popup({"maxWidth": 300});
+
+        
+            var html_1c99c7427be34dce97a13f794c386187 = $(`<div id="html_1c99c7427be34dce97a13f794c386187" style="width: 100.0%; height: 100.0%;">NVS The Wholesale Plywood Store</div>`)[0];
+            popup_2cfc7f84ea4a47bb8cb196a5cc231186.setContent(html_1c99c7427be34dce97a13f794c386187);
+        
+
+        circle_marker_8a3030627ae443afbc0bc53a652ed445.bindPopup(popup_2cfc7f84ea4a47bb8cb196a5cc231186)
+        ;
+
+        
+    
+    
+            var circle_marker_936cebb509f442ee808167c39d79fe84 = L.circleMarker(
+                [18.51627864919027, 73.86291136576304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+    
+        var popup_6ab8323d6cb5460088b048c8d9eb8c40 = L.popup({"maxWidth": 300});
+
+        
+            var html_707e8180f1e7447785c40dfeaec6eab1 = $(`<div id="html_707e8180f1e7447785c40dfeaec6eab1" style="width: 100.0%; height: 100.0%;">हरि ॐ ज्युस बार</div>`)[0];
+            popup_6ab8323d6cb5460088b048c8d9eb8c40.setContent(html_707e8180f1e7447785c40dfeaec6eab1);
+        
+
+        circle_marker_936cebb509f442ee808167c39d79fe84.bindPopup(popup_6ab8323d6cb5460088b048c8d9eb8c40)
+        ;
+
+        
+    
+    
+            var circle_marker_e0fd9ee6f5784f359ce6a9eee19418d7 = L.circleMarker(
+                [18.513484065286793, 73.86864249096537],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+    
+        var popup_a4f1690d95d749be896aac7cbf00fe93 = L.popup({"maxWidth": 300});
+
+        
+            var html_95640c53435c4f2e9d8d9f9f15cd52ee = $(`<div id="html_95640c53435c4f2e9d8d9f9f15cd52ee" style="width: 100.0%; height: 100.0%;">Aaina</div>`)[0];
+            popup_a4f1690d95d749be896aac7cbf00fe93.setContent(html_95640c53435c4f2e9d8d9f9f15cd52ee);
+        
+
+        circle_marker_e0fd9ee6f5784f359ce6a9eee19418d7.bindPopup(popup_a4f1690d95d749be896aac7cbf00fe93)
+        ;
+
+        
+    
+    
+            var circle_marker_b32db367e21545cb8d32c399174eff22 = L.circleMarker(
+                [18.517357849804824, 73.86822902861266],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+    
+        var popup_a3717a6b43a24cd4b9d3d538e67deea7 = L.popup({"maxWidth": 300});
+
+        
+            var html_4c3d5a27e6c14e7883ff77f3e4fc843b = $(`<div id="html_4c3d5a27e6c14e7883ff77f3e4fc843b" style="width: 100.0%; height: 100.0%;">Shukla's Coffee</div>`)[0];
+            popup_a3717a6b43a24cd4b9d3d538e67deea7.setContent(html_4c3d5a27e6c14e7883ff77f3e4fc843b);
+        
+
+        circle_marker_b32db367e21545cb8d32c399174eff22.bindPopup(popup_a3717a6b43a24cd4b9d3d538e67deea7)
+        ;
+
+        
+    
+    
+            var feature_group_e1d40e8ce7e04f878cf10c8b55bb0a3e = L.featureGroup(
+                {}
+            ).addTo(map_be6dc23ad2124f71ae891a647d14d65d);
+        
+</script>

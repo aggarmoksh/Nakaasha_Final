@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_88b791439f8b4059994430fd46331da2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_88b791439f8b4059994430fd46331da2" ></div>
+        
+</body>
+<script>    
+    
+            var map_88b791439f8b4059994430fd46331da2 = L.map(
+                "map_88b791439f8b4059994430fd46331da2",
+                {
+                    center: [30.736023, 76.735238],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e0b1596182b84ddc83b1f0b7b6d95fac = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_88b791439f8b4059994430fd46331da2);
+        
+    
+            var circle_marker_a9abf6291a0d4f6cb7023fbb565195ce = L.circleMarker(
+                [30.737743718136503, 76.73355147242546],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_88b791439f8b4059994430fd46331da2);
+        
+    
+        var popup_badeb3b0603d4531b290f8845c97cb88 = L.popup({"maxWidth": 300});
+
+        
+            var html_a1e2a9e98a6248cfb085a755515780b0 = $(`<div id="html_a1e2a9e98a6248cfb085a755515780b0" style="width: 100.0%; height: 100.0%;">Dev Travels - Taxi Service, Car Rental, Cab Service, Tempo Traveller Chandigarh</div>`)[0];
+            popup_badeb3b0603d4531b290f8845c97cb88.setContent(html_a1e2a9e98a6248cfb085a755515780b0);
+        
+
+        circle_marker_a9abf6291a0d4f6cb7023fbb565195ce.bindPopup(popup_badeb3b0603d4531b290f8845c97cb88)
+        ;
+
+        
+    
+    
+            var circle_marker_ee8a66a47b9b497eae9d0a9f106afab6 = L.circleMarker(
+                [30.737205780089948, 76.73248821444402],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_88b791439f8b4059994430fd46331da2);
+        
+    
+        var popup_18a09cf8157e47bbb555004337c4032c = L.popup({"maxWidth": 300});
+
+        
+            var html_08df6142230c4f67b772581d8e08132d = $(`<div id="html_08df6142230c4f67b772581d8e08132d" style="width: 100.0%; height: 100.0%;">Headturners Salon n Spa</div>`)[0];
+            popup_18a09cf8157e47bbb555004337c4032c.setContent(html_08df6142230c4f67b772581d8e08132d);
+        
+
+        circle_marker_ee8a66a47b9b497eae9d0a9f106afab6.bindPopup(popup_18a09cf8157e47bbb555004337c4032c)
+        ;
+
+        
+    
+    
+            var circle_marker_360ed385c88a48ac85c1a530d4508809 = L.circleMarker(
+                [30.738552910465017, 76.73229217529297],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_88b791439f8b4059994430fd46331da2);
+        
+    
+        var popup_25e64e23b97f43c5954d047479c64683 = L.popup({"maxWidth": 300});
+
+        
+            var html_f971afa578d346b18f071340ecaa9cd7 = $(`<div id="html_f971afa578d346b18f071340ecaa9cd7" style="width: 100.0%; height: 100.0%;">Car Rental Chandigarh</div>`)[0];
+            popup_25e64e23b97f43c5954d047479c64683.setContent(html_f971afa578d346b18f071340ecaa9cd7);
+        
+
+        circle_marker_360ed385c88a48ac85c1a530d4508809.bindPopup(popup_25e64e23b97f43c5954d047479c64683)
+        ;
+
+        
+    
+    
+            var circle_marker_48bae8c085f64d698bf633818e24d534 = L.circleMarker(
+                [30.73191071, 76.7352829],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_88b791439f8b4059994430fd46331da2);
+        
+    
+        var popup_b7d3b51bd04d4b7998d0836638057bfe = L.popup({"maxWidth": 300});
+
+        
+            var html_889c493b1fb8423380368277b0b6fa6d = $(`<div id="html_889c493b1fb8423380368277b0b6fa6d" style="width: 100.0%; height: 100.0%;">Axis Bank ATM</div>`)[0];
+            popup_b7d3b51bd04d4b7998d0836638057bfe.setContent(html_889c493b1fb8423380368277b0b6fa6d);
+        
+
+        circle_marker_48bae8c085f64d698bf633818e24d534.bindPopup(popup_b7d3b51bd04d4b7998d0836638057bfe)
+        ;
+
+        
+    
+    
+            var feature_group_f97d68c654334c28bfed50f9a8a6aee9 = L.featureGroup(
+                {}
+            ).addTo(map_88b791439f8b4059994430fd46331da2);
+        
+</script>

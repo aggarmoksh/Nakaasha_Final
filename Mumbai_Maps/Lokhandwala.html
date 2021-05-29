@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2761073f56674efcb0f09fe106fcff8b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2761073f56674efcb0f09fe106fcff8b" ></div>
+        
+</body>
+<script>    
+    
+            var map_2761073f56674efcb0f09fe106fcff8b = L.map(
+                "map_2761073f56674efcb0f09fe106fcff8b",
+                {
+                    center: [19.144298, 72.843033],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_742fde8523ab4e59a3940280fdce047f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2761073f56674efcb0f09fe106fcff8b);
+        
+    
+            var circle_marker_f4418c8189df4d21ac29107c91511055 = L.circleMarker(
+                [19.143858688045118, 72.84271755842165],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2761073f56674efcb0f09fe106fcff8b);
+        
+    
+        var popup_17e67666d30543389531c736b6abf772 = L.popup({"maxWidth": 300});
+
+        
+            var html_9539cbd440fd40df82263eae3e46cfb6 = $(`<div id="html_9539cbd440fd40df82263eae3e46cfb6" style="width: 100.0%; height: 100.0%;">Cafe Alif</div>`)[0];
+            popup_17e67666d30543389531c736b6abf772.setContent(html_9539cbd440fd40df82263eae3e46cfb6);
+        
+
+        circle_marker_f4418c8189df4d21ac29107c91511055.bindPopup(popup_17e67666d30543389531c736b6abf772)
+        ;
+
+        
+    
+    
+            var circle_marker_209c232d64ad4d45833c279f15e7292f = L.circleMarker(
+                [19.143684, 72.842606],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2761073f56674efcb0f09fe106fcff8b);
+        
+    
+        var popup_5273c8666ead426b802ac523899d0ec7 = L.popup({"maxWidth": 300});
+
+        
+            var html_a724a7f5c2a645968b7db5dc5ce2af22 = $(`<div id="html_a724a7f5c2a645968b7db5dc5ce2af22" style="width: 100.0%; height: 100.0%;">Baskin-Robbins</div>`)[0];
+            popup_5273c8666ead426b802ac523899d0ec7.setContent(html_a724a7f5c2a645968b7db5dc5ce2af22);
+        
+
+        circle_marker_209c232d64ad4d45833c279f15e7292f.bindPopup(popup_5273c8666ead426b802ac523899d0ec7)
+        ;
+
+        
+    
+    
+            var circle_marker_d1ba34687221410a9529e4cddb85d5db = L.circleMarker(
+                [19.143067412920097, 72.84269447965147],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2761073f56674efcb0f09fe106fcff8b);
+        
+    
+        var popup_c218bcdbbc9741bb9e9c992b70df4938 = L.popup({"maxWidth": 300});
+
+        
+            var html_a7cfd2c8c0ef4189abdfe8ef9294f0ad = $(`<div id="html_a7cfd2c8c0ef4189abdfe8ef9294f0ad" style="width: 100.0%; height: 100.0%;">dairy don</div>`)[0];
+            popup_c218bcdbbc9741bb9e9c992b70df4938.setContent(html_a7cfd2c8c0ef4189abdfe8ef9294f0ad);
+        
+
+        circle_marker_d1ba34687221410a9529e4cddb85d5db.bindPopup(popup_c218bcdbbc9741bb9e9c992b70df4938)
+        ;
+
+        
+    
+    
+            var circle_marker_da5dc8d435724219bd03937a420b043c = L.circleMarker(
+                [19.144753203946888, 72.83877682562908],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2761073f56674efcb0f09fe106fcff8b);
+        
+    
+        var popup_41482e882bb04266b760bb7472f83208 = L.popup({"maxWidth": 300});
+
+        
+            var html_01e94b1c10954469aa29e9965b38defa = $(`<div id="html_01e94b1c10954469aa29e9965b38defa" style="width: 100.0%; height: 100.0%;">Zodiac Retail Store</div>`)[0];
+            popup_41482e882bb04266b760bb7472f83208.setContent(html_01e94b1c10954469aa29e9965b38defa);
+        
+
+        circle_marker_da5dc8d435724219bd03937a420b043c.bindPopup(popup_41482e882bb04266b760bb7472f83208)
+        ;
+
+        
+    
+    
+            var feature_group_2e0afeeca6854ae2b6bbd84a4303b8a1 = L.featureGroup(
+                {}
+            ).addTo(map_2761073f56674efcb0f09fe106fcff8b);
+        
+</script>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_079b668ef07a440d827516e382d9f660 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_079b668ef07a440d827516e382d9f660" ></div>
+        
+</body>
+<script>    
+    
+            var map_079b668ef07a440d827516e382d9f660 = L.map(
+                "map_079b668ef07a440d827516e382d9f660",
+                {
+                    center: [28.609376, 76.985087],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1927d407145044faa54faf1f2dc4bd47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+            var circle_marker_146768ef709a4383a06375d972b5e7d2 = L.circleMarker(
+                [28.619, 77.033],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+        var popup_da4ceff2d86a413db9d938350b49ce76 = L.popup({"maxWidth": 300});
+
+        
+            var html_d44736038493467696302645a175c6f6 = $(`<div id="html_d44736038493467696302645a175c6f6" style="width: 100.0%; height: 100.0%;">Domino's Pizza</div>`)[0];
+            popup_da4ceff2d86a413db9d938350b49ce76.setContent(html_d44736038493467696302645a175c6f6);
+        
+
+        circle_marker_146768ef709a4383a06375d972b5e7d2.bindPopup(popup_da4ceff2d86a413db9d938350b49ce76)
+        ;
+
+        
+    
+    
+            var circle_marker_7cdf38e0a769468c864178bc55fa00ad = L.circleMarker(
+                [28.6035733122263, 77.03211618170424],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+        var popup_8248b4af25c44a329e3f0619fb5d8898 = L.popup({"maxWidth": 300});
+
+        
+            var html_614f23d5e60547dda3b46d104139ac7b = $(`<div id="html_614f23d5e60547dda3b46d104139ac7b" style="width: 100.0%; height: 100.0%;">McDonald's</div>`)[0];
+            popup_8248b4af25c44a329e3f0619fb5d8898.setContent(html_614f23d5e60547dda3b46d104139ac7b);
+        
+
+        circle_marker_7cdf38e0a769468c864178bc55fa00ad.bindPopup(popup_8248b4af25c44a329e3f0619fb5d8898)
+        ;
+
+        
+    
+    
+            var circle_marker_3ab987dee1ea47148b587e273e811edd = L.circleMarker(
+                [28.614938122598893, 77.02277541160583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+        var popup_ccb07d3599954882a6c36841b848a9ca = L.popup({"maxWidth": 300});
+
+        
+            var html_6a1d29bebd034cb88ce00af94fc1771b = $(`<div id="html_6a1d29bebd034cb88ce00af94fc1771b" style="width: 100.0%; height: 100.0%;">Dwarka Metro Station</div>`)[0];
+            popup_ccb07d3599954882a6c36841b848a9ca.setContent(html_6a1d29bebd034cb88ce00af94fc1771b);
+        
+
+        circle_marker_3ab987dee1ea47148b587e273e811edd.bindPopup(popup_ccb07d3599954882a6c36841b848a9ca)
+        ;
+
+        
+    
+    
+            var circle_marker_ad1432ea95674fd6a1564849603a72d8 = L.circleMarker(
+                [28.602304076624538, 77.02545298955758],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+        var popup_987b82c55c5647b69d9a1b0331eaa22b = L.popup({"maxWidth": 300});
+
+        
+            var html_d4e853aece12422c9ca6ab338a92eb33 = $(`<div id="html_d4e853aece12422c9ca6ab338a92eb33" style="width: 100.0%; height: 100.0%;">Dwarka Sector 14 Metro Station</div>`)[0];
+            popup_987b82c55c5647b69d9a1b0331eaa22b.setContent(html_d4e853aece12422c9ca6ab338a92eb33);
+        
+
+        circle_marker_ad1432ea95674fd6a1564849603a72d8.bindPopup(popup_987b82c55c5647b69d9a1b0331eaa22b)
+        ;
+
+        
+    
+    
+            var circle_marker_06247e0302b84b4ebe2d08df1ef1180e = L.circleMarker(
+                [28.598199215430252, 77.03355364676158],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+        var popup_8ac12686a67943418210b8ce4ee8d7c4 = L.popup({"maxWidth": 300});
+
+        
+            var html_766939b1b5a04353926db8339b3c3ba6 = $(`<div id="html_766939b1b5a04353926db8339b3c3ba6" style="width: 100.0%; height: 100.0%;">Reliance Smart</div>`)[0];
+            popup_8ac12686a67943418210b8ce4ee8d7c4.setContent(html_766939b1b5a04353926db8339b3c3ba6);
+        
+
+        circle_marker_06247e0302b84b4ebe2d08df1ef1180e.bindPopup(popup_8ac12686a67943418210b8ce4ee8d7c4)
+        ;
+
+        
+    
+    
+            var circle_marker_06f4891d101845f89ee2fd33212ac567 = L.circleMarker(
+                [28.59718460410518, 77.03324073490705],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+    
+        var popup_0d00c6a3f8b14e47b5d31afa1e68d39e = L.popup({"maxWidth": 300});
+
+        
+            var html_2c647dfa18204380b060a990e67690b9 = $(`<div id="html_2c647dfa18204380b060a990e67690b9" style="width: 100.0%; height: 100.0%;">Dwarka Sector 13 Metro Station</div>`)[0];
+            popup_0d00c6a3f8b14e47b5d31afa1e68d39e.setContent(html_2c647dfa18204380b060a990e67690b9);
+        
+
+        circle_marker_06f4891d101845f89ee2fd33212ac567.bindPopup(popup_0d00c6a3f8b14e47b5d31afa1e68d39e)
+        ;
+
+        
+    
+    
+            var feature_group_79b235e9e49644e8a4d382436137eb66 = L.featureGroup(
+                {}
+            ).addTo(map_079b668ef07a440d827516e382d9f660);
+        
+</script>

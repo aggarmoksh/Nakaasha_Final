@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Log-in Page</title>
+<!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+    
+<body>
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Geolocational Data</span>
+    </a>
+        </div>
+    </header>
+    
+    
+    <hr>
+   <form action="/signin/" method="post"> 
+    
+     <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col">
+    <div class="mb-4">
+      <label class="block text-grey-darker text-sm font-bold mb-2" for="username">
+        Username
+      </label>
+      <input type="text" name='USERNAME' class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" placeholder="Username">
+    </div>
+    <div class="mb-6">
+      <label class="block text-grey-darker text-sm font-bold mb-2" for="password">
+        Password
+      </label>
+      <input type="password" name='PASSWORD' class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="******************">
+      <p class="text-red text-xs italic">Please choose a password.</p>
+    </div>
+
+             <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Sign In</button>
+      
+    <div class="flex items-center justify-between">
+      <button type="submit" class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="button">
+        Sign In
+      </button>
+      <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
+        Forgot Password?
+      </a>
+   
+  
+  
+  
+<!--	<input type="text" name="USERNAME" class="input-box" placeholder="Your Email Id" 
+        required>
+		<input type="password" class="input-box" name="PASSWORD"  placeholder="Password" 
+        required>
+		{{ msg }}
+		
+		<button type="submit" value="Login" class="submit-btn"> Submit</button> -->
+
+
+  </form> 
+  </div>
+</div> 
+ </form>   
+</body>
+    
+</html>

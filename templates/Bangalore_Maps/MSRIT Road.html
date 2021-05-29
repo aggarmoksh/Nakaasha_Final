@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6110d236bc6c4068be483e7a16fea118 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6110d236bc6c4068be483e7a16fea118" ></div>
+        
+</body>
+<script>    
+    
+            var map_6110d236bc6c4068be483e7a16fea118 = L.map(
+                "map_6110d236bc6c4068be483e7a16fea118",
+                {
+                    center: [13.030061, 77.562553],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_35cba29e91774ac8ad11285b2d733052 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+            var circle_marker_651fee75e32e41929dbf97223d80ab88 = L.circleMarker(
+                [13.029985273529318, 77.56282350083596],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+        var popup_94a2439f109d4cd9b98db6a37f6deae0 = L.popup({"maxWidth": 300});
+
+        
+            var html_c5242595ec5241b2908cddf66ce42523 = $(`<div id="html_c5242595ec5241b2908cddf66ce42523" style="width: 100.0%; height: 100.0%;">Kusum Restaurant</div>`)[0];
+            popup_94a2439f109d4cd9b98db6a37f6deae0.setContent(html_c5242595ec5241b2908cddf66ce42523);
+        
+
+        circle_marker_651fee75e32e41929dbf97223d80ab88.bindPopup(popup_94a2439f109d4cd9b98db6a37f6deae0)
+        ;
+
+        
+    
+    
+            var circle_marker_e05c989a48e6437392a6ce581cf8ab88 = L.circleMarker(
+                [13.02995294340458, 77.56211592726794],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+        var popup_3c79f852eaac47579091b92b5303d38b = L.popup({"maxWidth": 300});
+
+        
+            var html_bac630a6b8ce426fad5e980376ce474d = $(`<div id="html_bac630a6b8ce426fad5e980376ce474d" style="width: 100.0%; height: 100.0%;">Thalassery Restaurant</div>`)[0];
+            popup_3c79f852eaac47579091b92b5303d38b.setContent(html_bac630a6b8ce426fad5e980376ce474d);
+        
+
+        circle_marker_e05c989a48e6437392a6ce581cf8ab88.bindPopup(popup_3c79f852eaac47579091b92b5303d38b)
+        ;
+
+        
+    
+    
+            var circle_marker_29d7536b49184437bccb80ba8009785e = L.circleMarker(
+                [13.030272426770807, 77.5620174407959],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+        var popup_f1881da27eda4bd0936332f6d0eff039 = L.popup({"maxWidth": 300});
+
+        
+            var html_bdc91dc7f7f34b639b33823fddb07990 = $(`<div id="html_bdc91dc7f7f34b639b33823fddb07990" style="width: 100.0%; height: 100.0%;">CALICUT Restaurant</div>`)[0];
+            popup_f1881da27eda4bd0936332f6d0eff039.setContent(html_bdc91dc7f7f34b639b33823fddb07990);
+        
+
+        circle_marker_29d7536b49184437bccb80ba8009785e.bindPopup(popup_f1881da27eda4bd0936332f6d0eff039)
+        ;
+
+        
+    
+    
+            var circle_marker_9a8de593948146268fc2cdae2f533b0d = L.circleMarker(
+                [13.029863587044764, 77.56128421815595],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+        var popup_b50fa5eba6c44bbbbf5cc775604c5ea3 = L.popup({"maxWidth": 300});
+
+        
+            var html_530ed43780214704b6fbc9f7149ed7bd = $(`<div id="html_530ed43780214704b6fbc9f7149ed7bd" style="width: 100.0%; height: 100.0%;">Pavillion Bar and Restaurant</div>`)[0];
+            popup_b50fa5eba6c44bbbbf5cc775604c5ea3.setContent(html_530ed43780214704b6fbc9f7149ed7bd);
+        
+
+        circle_marker_9a8de593948146268fc2cdae2f533b0d.bindPopup(popup_b50fa5eba6c44bbbbf5cc775604c5ea3)
+        ;
+
+        
+    
+    
+            var circle_marker_976dcc1ed0d54f4f80d474f2ba0e8ce2 = L.circleMarker(
+                [13.03357852282456, 77.56117226950926],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+        var popup_3b831c55c7f74ca18d9b117e8b2bed04 = L.popup({"maxWidth": 300});
+
+        
+            var html_872179bd612d43e780ea66283a0cd7a0 = $(`<div id="html_872179bd612d43e780ea66283a0cd7a0" style="width: 100.0%; height: 100.0%;">Sagar bar & restaurant</div>`)[0];
+            popup_3b831c55c7f74ca18d9b117e8b2bed04.setContent(html_872179bd612d43e780ea66283a0cd7a0);
+        
+
+        circle_marker_976dcc1ed0d54f4f80d474f2ba0e8ce2.bindPopup(popup_3b831c55c7f74ca18d9b117e8b2bed04)
+        ;
+
+        
+    
+    
+            var circle_marker_2b9ed69d08384ab792d8a5cfc8c9f003 = L.circleMarker(
+                [13.033592492820457, 77.5641220794208],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+    
+        var popup_ff10429d44304c479e9ecd94212d873f = L.popup({"maxWidth": 300});
+
+        
+            var html_50f1b7450e174e69bd97ed61b0d0be26 = $(`<div id="html_50f1b7450e174e69bd97ed61b0d0be26" style="width: 100.0%; height: 100.0%;">Kuttanadan Family Restaurant</div>`)[0];
+            popup_ff10429d44304c479e9ecd94212d873f.setContent(html_50f1b7450e174e69bd97ed61b0d0be26);
+        
+
+        circle_marker_2b9ed69d08384ab792d8a5cfc8c9f003.bindPopup(popup_ff10429d44304c479e9ecd94212d873f)
+        ;
+
+        
+    
+    
+            var feature_group_2bd5c8c5566a47e98c8f8bd07a4ab891 = L.featureGroup(
+                {}
+            ).addTo(map_6110d236bc6c4068be483e7a16fea118);
+        
+</script>

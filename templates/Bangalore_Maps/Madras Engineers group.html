@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3259fe1fa4e845f59e92f84653795269 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3259fe1fa4e845f59e92f84653795269" ></div>
+        
+</body>
+<script>    
+    
+            var map_3259fe1fa4e845f59e92f84653795269 = L.map(
+                "map_3259fe1fa4e845f59e92f84653795269",
+                {
+                    center: [13.002004, 77.632883],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_141bf8ce13ee46a8835b890ce6ed92a0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+            var circle_marker_549083b2ac634b86b2b332c2bed1b55c = L.circleMarker(
+                [13.001547220169341, 77.63261859143057],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_26721dec64004367aa33d7328e9e60e9 = L.popup({"maxWidth": 300});
+
+        
+            var html_96f930bae1714068bc95619c1061cb1d = $(`<div id="html_96f930bae1714068bc95619c1061cb1d" style="width: 100.0%; height: 100.0%;">Orion East</div>`)[0];
+            popup_26721dec64004367aa33d7328e9e60e9.setContent(html_96f930bae1714068bc95619c1061cb1d);
+        
+
+        circle_marker_549083b2ac634b86b2b332c2bed1b55c.bindPopup(popup_26721dec64004367aa33d7328e9e60e9)
+        ;
+
+        
+    
+    
+            var circle_marker_05bd0b90bdf74d61919707c81bf9f0eb = L.circleMarker(
+                [13.001440817072536, 77.63261545898193],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_4a1b4413f0d046ffb4a5926a3be526c7 = L.popup({"maxWidth": 300});
+
+        
+            var html_e1ef9b8c738146f8b6be3f6ce2401036 = $(`<div id="html_e1ef9b8c738146f8b6be3f6ce2401036" style="width: 100.0%; height: 100.0%;">Cinépolis</div>`)[0];
+            popup_4a1b4413f0d046ffb4a5926a3be526c7.setContent(html_e1ef9b8c738146f8b6be3f6ce2401036);
+        
+
+        circle_marker_05bd0b90bdf74d61919707c81bf9f0eb.bindPopup(popup_4a1b4413f0d046ffb4a5926a3be526c7)
+        ;
+
+        
+    
+    
+            var circle_marker_08c146e6f36343f2ba3d6467599ed16a = L.circleMarker(
+                [13.001184829743625, 77.62923942810777],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_57d863fab8e54a71bcde3fea30fbb1f7 = L.popup({"maxWidth": 300});
+
+        
+            var html_b8ab4eba38f0438e8d187b424b685b70 = $(`<div id="html_b8ab4eba38f0438e8d187b424b685b70" style="width: 100.0%; height: 100.0%;">Upbeat</div>`)[0];
+            popup_57d863fab8e54a71bcde3fea30fbb1f7.setContent(html_b8ab4eba38f0438e8d187b424b685b70);
+        
+
+        circle_marker_08c146e6f36343f2ba3d6467599ed16a.bindPopup(popup_57d863fab8e54a71bcde3fea30fbb1f7)
+        ;
+
+        
+    
+    
+            var circle_marker_15779621fa0945e696a0555e24174f59 = L.circleMarker(
+                [13.003075804550535, 77.63164439519004],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_0e5118d24bb7429691bd4f5834b27ae9 = L.popup({"maxWidth": 300});
+
+        
+            var html_24b8d2586c0140d98ceba58aaa3a25be = $(`<div id="html_24b8d2586c0140d98ceba58aaa3a25be" style="width: 100.0%; height: 100.0%;">McDonald's</div>`)[0];
+            popup_0e5118d24bb7429691bd4f5834b27ae9.setContent(html_24b8d2586c0140d98ceba58aaa3a25be);
+        
+
+        circle_marker_15779621fa0945e696a0555e24174f59.bindPopup(popup_0e5118d24bb7429691bd4f5834b27ae9)
+        ;
+
+        
+    
+    
+            var circle_marker_05d7d31edd84433da2a8d83cc08851ea = L.circleMarker(
+                [13.001621, 77.63283],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_67576097a16847dbb04dce0852bccc4f = L.popup({"maxWidth": 300});
+
+        
+            var html_a6e54fd1233248e391aadd5e60b6e5ee = $(`<div id="html_a6e54fd1233248e391aadd5e60b6e5ee" style="width: 100.0%; height: 100.0%;">Westside @ Orion East</div>`)[0];
+            popup_67576097a16847dbb04dce0852bccc4f.setContent(html_a6e54fd1233248e391aadd5e60b6e5ee);
+        
+
+        circle_marker_05d7d31edd84433da2a8d83cc08851ea.bindPopup(popup_67576097a16847dbb04dce0852bccc4f)
+        ;
+
+        
+    
+    
+            var circle_marker_4a7e2de0383b47939cdaeb8bb098c3e6 = L.circleMarker(
+                [13.001656, 77.63275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_a672c297066c482f9baf4b3d814589f1 = L.popup({"maxWidth": 300});
+
+        
+            var html_f75e8ffc45f9434e86a13e402e7337e4 = $(`<div id="html_f75e8ffc45f9434e86a13e402e7337e4" style="width: 100.0%; height: 100.0%;">Shoppers Stop - Orion East</div>`)[0];
+            popup_a672c297066c482f9baf4b3d814589f1.setContent(html_f75e8ffc45f9434e86a13e402e7337e4);
+        
+
+        circle_marker_4a7e2de0383b47939cdaeb8bb098c3e6.bindPopup(popup_a672c297066c482f9baf4b3d814589f1)
+        ;
+
+        
+    
+    
+            var circle_marker_6905174ff581401f9e15bd8e970cc8d5 = L.circleMarker(
+                [13.001457627216238, 77.63071169477355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_a46cb4b17e98485d8a7a74051c301cfa = L.popup({"maxWidth": 300});
+
+        
+            var html_050b99cf6b4143f4bc2b9e6eb03ef027 = $(`<div id="html_050b99cf6b4143f4bc2b9e6eb03ef027" style="width: 100.0%; height: 100.0%;">Reliance Fresh</div>`)[0];
+            popup_a46cb4b17e98485d8a7a74051c301cfa.setContent(html_050b99cf6b4143f4bc2b9e6eb03ef027);
+        
+
+        circle_marker_6905174ff581401f9e15bd8e970cc8d5.bindPopup(popup_a46cb4b17e98485d8a7a74051c301cfa)
+        ;
+
+        
+    
+    
+            var circle_marker_52e4b3872aa94029b2266e7ee397b800 = L.circleMarker(
+                [13.000369855869685, 77.62909352885714],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+    
+        var popup_e1a0c11837d047f8a7c4eb3d24bb8db1 = L.popup({"maxWidth": 300});
+
+        
+            var html_a964d16fad194612bc6cb3479462c7bb = $(`<div id="html_a964d16fad194612bc6cb3479462c7bb" style="width: 100.0%; height: 100.0%;">Kenny's</div>`)[0];
+            popup_e1a0c11837d047f8a7c4eb3d24bb8db1.setContent(html_a964d16fad194612bc6cb3479462c7bb);
+        
+
+        circle_marker_52e4b3872aa94029b2266e7ee397b800.bindPopup(popup_e1a0c11837d047f8a7c4eb3d24bb8db1)
+        ;
+
+        
+    
+    
+            var feature_group_920bd85e34474dc09f6e1a716246a0bb = L.featureGroup(
+                {}
+            ).addTo(map_3259fe1fa4e845f59e92f84653795269);
+        
+</script>

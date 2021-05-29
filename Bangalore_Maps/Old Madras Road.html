@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a5f4e774a204765b896112bd4255bd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4a5f4e774a204765b896112bd4255bd7" ></div>
+        
+</body>
+<script>    
+    
+            var map_4a5f4e774a204765b896112bd4255bd7 = L.map(
+                "map_4a5f4e774a204765b896112bd4255bd7",
+                {
+                    center: [13.023789, 77.706813],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37ccac1d41e94495914cec792e5a2172 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+            var circle_marker_5b8e8a7a65da480c981b0c8e7c980e48 = L.circleMarker(
+                [13.0242, 77.706937],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+        var popup_4052f6de15344fb994230b23439143e9 = L.popup({"maxWidth": 300});
+
+        
+            var html_826102b32f734d10a8e106bdb6bca3b8 = $(`<div id="html_826102b32f734d10a8e106bdb6bca3b8" style="width: 100.0%; height: 100.0%;">Chill Out Restaurant</div>`)[0];
+            popup_4052f6de15344fb994230b23439143e9.setContent(html_826102b32f734d10a8e106bdb6bca3b8);
+        
+
+        circle_marker_5b8e8a7a65da480c981b0c8e7c980e48.bindPopup(popup_4052f6de15344fb994230b23439143e9)
+        ;
+
+        
+    
+    
+            var circle_marker_00380a7829f04f32bf2e6c102293c975 = L.circleMarker(
+                [13.024399, 77.7068],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+        var popup_c3fd9c7d8af2477f98b3bea0030e29bc = L.popup({"maxWidth": 300});
+
+        
+            var html_189bd52325ea49c1b41cbbe8130f0bc6 = $(`<div id="html_189bd52325ea49c1b41cbbe8130f0bc6" style="width: 100.0%; height: 100.0%;">Royal Restaurant</div>`)[0];
+            popup_c3fd9c7d8af2477f98b3bea0030e29bc.setContent(html_189bd52325ea49c1b41cbbe8130f0bc6);
+        
+
+        circle_marker_00380a7829f04f32bf2e6c102293c975.bindPopup(popup_c3fd9c7d8af2477f98b3bea0030e29bc)
+        ;
+
+        
+    
+    
+            var circle_marker_43e71ee9d0bc4623a96a1f277ba21feb = L.circleMarker(
+                [13.019995343806977, 77.70732724061857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+        var popup_ab379343a30946c2a5a51655fb62bcb8 = L.popup({"maxWidth": 300});
+
+        
+            var html_dd02ecb672be489eb1b8f2a1c5bda5cf = $(`<div id="html_dd02ecb672be489eb1b8f2a1c5bda5cf" style="width: 100.0%; height: 100.0%;">Bruce bar And Restaurant</div>`)[0];
+            popup_ab379343a30946c2a5a51655fb62bcb8.setContent(html_dd02ecb672be489eb1b8f2a1c5bda5cf);
+        
+
+        circle_marker_43e71ee9d0bc4623a96a1f277ba21feb.bindPopup(popup_ab379343a30946c2a5a51655fb62bcb8)
+        ;
+
+        
+    
+    
+            var circle_marker_7f6df24eb6b5481082fadc394bdb8e8c = L.circleMarker(
+                [13.019763312279796, 77.70755643692469],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+        var popup_d5e068781fc4432c950832c34d016d54 = L.popup({"maxWidth": 300});
+
+        
+            var html_16fc6e995cfa4f678d307c09330d8b96 = $(`<div id="html_16fc6e995cfa4f678d307c09330d8b96" style="width: 100.0%; height: 100.0%;">SS Bar and Restaurant</div>`)[0];
+            popup_d5e068781fc4432c950832c34d016d54.setContent(html_16fc6e995cfa4f678d307c09330d8b96);
+        
+
+        circle_marker_7f6df24eb6b5481082fadc394bdb8e8c.bindPopup(popup_d5e068781fc4432c950832c34d016d54)
+        ;
+
+        
+    
+    
+            var circle_marker_4fd0d0da6b55444d8da6d67ecd37f554 = L.circleMarker(
+                [13.019402665249341, 77.70734960125455],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+        var popup_6b40c6ed7b654a3abd06f7717274a0ca = L.popup({"maxWidth": 300});
+
+        
+            var html_3228c993836848ad8e615f8730e9a11d = $(`<div id="html_3228c993836848ad8e615f8730e9a11d" style="width: 100.0%; height: 100.0%;">Purvi Restaurant</div>`)[0];
+            popup_6b40c6ed7b654a3abd06f7717274a0ca.setContent(html_3228c993836848ad8e615f8730e9a11d);
+        
+
+        circle_marker_4fd0d0da6b55444d8da6d67ecd37f554.bindPopup(popup_6b40c6ed7b654a3abd06f7717274a0ca)
+        ;
+
+        
+    
+    
+            var circle_marker_a2b138adc6cb4b32bc293a71ad2186e2 = L.circleMarker(
+                [13.019888132695769, 77.70878067262177],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+    
+        var popup_c72e699075cc47d38b5b31baa5b8eb6d = L.popup({"maxWidth": 300});
+
+        
+            var html_666e4bfdfd5c45959ad4d7cfec264cde = $(`<div id="html_666e4bfdfd5c45959ad4d7cfec264cde" style="width: 100.0%; height: 100.0%;">Ashraya Restaurant</div>`)[0];
+            popup_c72e699075cc47d38b5b31baa5b8eb6d.setContent(html_666e4bfdfd5c45959ad4d7cfec264cde);
+        
+
+        circle_marker_a2b138adc6cb4b32bc293a71ad2186e2.bindPopup(popup_c72e699075cc47d38b5b31baa5b8eb6d)
+        ;
+
+        
+    
+    
+            var feature_group_7bd43194b070435cb5cade866a18e4ea = L.featureGroup(
+                {}
+            ).addTo(map_4a5f4e774a204765b896112bd4255bd7);
+        
+</script>

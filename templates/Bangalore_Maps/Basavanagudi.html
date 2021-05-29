@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_07caad124ae2442f91d2d4945fb7fe04 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_07caad124ae2442f91d2d4945fb7fe04" ></div>
+        
+</body>
+<script>    
+    
+            var map_07caad124ae2442f91d2d4945fb7fe04 = L.map(
+                "map_07caad124ae2442f91d2d4945fb7fe04",
+                {
+                    center: [12.944275, 77.571411],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5622de5e3bf4898aa5b5b761b8c994c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+            var circle_marker_bdd7e98ae24740ee8c0d19dbf6dba10c = L.circleMarker(
+                [12.945146712968477, 77.57583100364036],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_4c20f8038ddc4ba986088029acd4ec9d = L.popup({"maxWidth": 300});
+
+        
+            var html_e1baf0b173504887864358dfa7356492 = $(`<div id="html_e1baf0b173504887864358dfa7356492" style="width: 100.0%; height: 100.0%;">Kargil Hilton Bar & Restaurant</div>`)[0];
+            popup_4c20f8038ddc4ba986088029acd4ec9d.setContent(html_e1baf0b173504887864358dfa7356492);
+        
+
+        circle_marker_bdd7e98ae24740ee8c0d19dbf6dba10c.bindPopup(popup_4c20f8038ddc4ba986088029acd4ec9d)
+        ;
+
+        
+    
+    
+            var circle_marker_b10ee324902b4a408f50cb0f59c5fa69 = L.circleMarker(
+                [12.94456652421086, 77.57208114536412],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_ef64c9d36bd94a47a9514781835bd745 = L.popup({"maxWidth": 300});
+
+        
+            var html_7d7d3728bfec4c4c8be4070b0e2c5718 = $(`<div id="html_7d7d3728bfec4c4c8be4070b0e2c5718" style="width: 100.0%; height: 100.0%;">Nisarga Bar & Restaurant</div>`)[0];
+            popup_ef64c9d36bd94a47a9514781835bd745.setContent(html_7d7d3728bfec4c4c8be4070b0e2c5718);
+        
+
+        circle_marker_b10ee324902b4a408f50cb0f59c5fa69.bindPopup(popup_ef64c9d36bd94a47a9514781835bd745)
+        ;
+
+        
+    
+    
+            var circle_marker_f4214330dbd8414f80e0741a4ba6f0a4 = L.circleMarker(
+                [12.944723, 77.57212],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_692a73a8b36f44c99971ae1b409d872b = L.popup({"maxWidth": 300});
+
+        
+            var html_04f587b0ae7948ab83fb613b316a1f29 = $(`<div id="html_04f587b0ae7948ab83fb613b316a1f29" style="width: 100.0%; height: 100.0%;">Ma-Arya Restaurant</div>`)[0];
+            popup_692a73a8b36f44c99971ae1b409d872b.setContent(html_04f587b0ae7948ab83fb613b316a1f29);
+        
+
+        circle_marker_f4214330dbd8414f80e0741a4ba6f0a4.bindPopup(popup_692a73a8b36f44c99971ae1b409d872b)
+        ;
+
+        
+    
+    
+            var circle_marker_2fa8ab9f4b9842c48a70472c9c3c39aa = L.circleMarker(
+                [12.94433645307346, 77.57252889616704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_de6ac5750a404cdea2ff833471511d58 = L.popup({"maxWidth": 300});
+
+        
+            var html_89ce5fe6b4594be6b835807293a508f8 = $(`<div id="html_89ce5fe6b4594be6b835807293a508f8" style="width: 100.0%; height: 100.0%;">Pramukh bar and restaurant</div>`)[0];
+            popup_de6ac5750a404cdea2ff833471511d58.setContent(html_89ce5fe6b4594be6b835807293a508f8);
+        
+
+        circle_marker_2fa8ab9f4b9842c48a70472c9c3c39aa.bindPopup(popup_de6ac5750a404cdea2ff833471511d58)
+        ;
+
+        
+    
+    
+            var circle_marker_6df74fbfa8c04f08ace2f8adbb02df0d = L.circleMarker(
+                [12.944348110053669, 77.57107929652862],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_61183b6a693e401caa96c9d70e86866d = L.popup({"maxWidth": 300});
+
+        
+            var html_c6e5945fe07f40d890749c8153ba64ce = $(`<div id="html_c6e5945fe07f40d890749c8153ba64ce" style="width: 100.0%; height: 100.0%;">Gokul</div>`)[0];
+            popup_61183b6a693e401caa96c9d70e86866d.setContent(html_c6e5945fe07f40d890749c8153ba64ce);
+        
+
+        circle_marker_6df74fbfa8c04f08ace2f8adbb02df0d.bindPopup(popup_61183b6a693e401caa96c9d70e86866d)
+        ;
+
+        
+    
+    
+            var circle_marker_8360933f494b42e0a656a66a4162c989 = L.circleMarker(
+                [12.941505664089403, 77.57106810263681],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_f81d50e85ebc490b8e6728a797df5266 = L.popup({"maxWidth": 300});
+
+        
+            var html_120f8b476fd246ed8d4ad102b2c7243f = $(`<div id="html_120f8b476fd246ed8d4ad102b2c7243f" style="width: 100.0%; height: 100.0%;">Nisarga Garden Veg Restaurant</div>`)[0];
+            popup_f81d50e85ebc490b8e6728a797df5266.setContent(html_120f8b476fd246ed8d4ad102b2c7243f);
+        
+
+        circle_marker_8360933f494b42e0a656a66a4162c989.bindPopup(popup_f81d50e85ebc490b8e6728a797df5266)
+        ;
+
+        
+    
+    
+            var circle_marker_64691a919a9f4691b7f9d7ab2c2a7573 = L.circleMarker(
+                [12.943875, 77.56805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_c62af4f2872a49308a7ebb7ad056064f = L.popup({"maxWidth": 300});
+
+        
+            var html_e4849e539b6946e7924e86acfd146506 = $(`<div id="html_e4849e539b6946e7924e86acfd146506" style="width: 100.0%; height: 100.0%;">Bhavani Restaurant</div>`)[0];
+            popup_c62af4f2872a49308a7ebb7ad056064f.setContent(html_e4849e539b6946e7924e86acfd146506);
+        
+
+        circle_marker_64691a919a9f4691b7f9d7ab2c2a7573.bindPopup(popup_c62af4f2872a49308a7ebb7ad056064f)
+        ;
+
+        
+    
+    
+            var circle_marker_c383afcfd5314e1b929374ada336a380 = L.circleMarker(
+                [12.9467889794, 77.5678405166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+    
+        var popup_7d7b353cd6c64b66be15265cd90195c8 = L.popup({"maxWidth": 300});
+
+        
+            var html_f472f24d33134e13a805f172b9d7896c = $(`<div id="html_f472f24d33134e13a805f172b9d7896c" style="width: 100.0%; height: 100.0%;">Pizza Hut</div>`)[0];
+            popup_7d7b353cd6c64b66be15265cd90195c8.setContent(html_f472f24d33134e13a805f172b9d7896c);
+        
+
+        circle_marker_c383afcfd5314e1b929374ada336a380.bindPopup(popup_7d7b353cd6c64b66be15265cd90195c8)
+        ;
+
+        
+    
+    
+            var feature_group_47675b91e281429ea463df83930bee0f = L.featureGroup(
+                {}
+            ).addTo(map_07caad124ae2442f91d2d4945fb7fe04);
+        
+</script>

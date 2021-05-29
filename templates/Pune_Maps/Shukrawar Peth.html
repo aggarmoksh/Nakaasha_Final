@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_21c22a17e7b946bdb1132757b5f7b651 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_21c22a17e7b946bdb1132757b5f7b651" ></div>
+        
+</body>
+<script>    
+    
+            var map_21c22a17e7b946bdb1132757b5f7b651 = L.map(
+                "map_21c22a17e7b946bdb1132757b5f7b651",
+                {
+                    center: [18.508785223143175, 73.8565265643236],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_978a11de5cf54325bea4bd87c2d22687 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+            var circle_marker_b0bfcc523f5349b29d01b46357dc8208 = L.circleMarker(
+                [18.510743623888896, 73.85438919067383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_4eabef4b436146c58bac796bf5c3db48 = L.popup({"maxWidth": 300});
+
+        
+            var html_d4586d2eccba47ec822cf7eb460fb7c9 = $(`<div id="html_d4586d2eccba47ec822cf7eb460fb7c9" style="width: 100.0%; height: 100.0%;">Raja Dinkar Kelkar museum</div>`)[0];
+            popup_4eabef4b436146c58bac796bf5c3db48.setContent(html_d4586d2eccba47ec822cf7eb460fb7c9);
+        
+
+        circle_marker_b0bfcc523f5349b29d01b46357dc8208.bindPopup(popup_4eabef4b436146c58bac796bf5c3db48)
+        ;
+
+        
+    
+    
+            var circle_marker_c46fe31de3a448049f4164dce80a5c6f = L.circleMarker(
+                [18.509120894706307, 73.85364690561192],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_6bc4707bc8d848bcb46cfe03cf4e4806 = L.popup({"maxWidth": 300});
+
+        
+            var html_9bb80e42c2fc46efa9e4cd897bffd0d0 = $(`<div id="html_9bb80e42c2fc46efa9e4cd897bffd0d0" style="width: 100.0%; height: 100.0%;">Ganraj Restaurant</div>`)[0];
+            popup_6bc4707bc8d848bcb46cfe03cf4e4806.setContent(html_9bb80e42c2fc46efa9e4cd897bffd0d0);
+        
+
+        circle_marker_c46fe31de3a448049f4164dce80a5c6f.bindPopup(popup_6bc4707bc8d848bcb46cfe03cf4e4806)
+        ;
+
+        
+    
+    
+            var circle_marker_9138bb442fea49c2be4de7650918a496 = L.circleMarker(
+                [18.509658968315318, 73.85372858334871],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_7bb435f5f1aa45ca9b88255715f2fd58 = L.popup({"maxWidth": 300});
+
+        
+            var html_f04f48a8f209461ebbbb582689d81ec6 = $(`<div id="html_f04f48a8f209461ebbbb582689d81ec6" style="width: 100.0%; height: 100.0%;">Manasi Malai Gola</div>`)[0];
+            popup_7bb435f5f1aa45ca9b88255715f2fd58.setContent(html_f04f48a8f209461ebbbb582689d81ec6);
+        
+
+        circle_marker_9138bb442fea49c2be4de7650918a496.bindPopup(popup_7bb435f5f1aa45ca9b88255715f2fd58)
+        ;
+
+        
+    
+    
+            var circle_marker_f4536d86e53c4eb496eabd8cae52831e = L.circleMarker(
+                [18.510752727983352, 73.85374824193698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_af4771da5d3d43f282176401ee2c0698 = L.popup({"maxWidth": 300});
+
+        
+            var html_cba17d8b55b14fd3bb2aa10da13763ac = $(`<div id="html_cba17d8b55b14fd3bb2aa10da13763ac" style="width: 100.0%; height: 100.0%;">Shree Wadeshwar Bhuvan</div>`)[0];
+            popup_af4771da5d3d43f282176401ee2c0698.setContent(html_cba17d8b55b14fd3bb2aa10da13763ac);
+        
+
+        circle_marker_f4536d86e53c4eb496eabd8cae52831e.bindPopup(popup_af4771da5d3d43f282176401ee2c0698)
+        ;
+
+        
+    
+    
+            var circle_marker_28c3e96623c24ad3b5bad8268c2760c0 = L.circleMarker(
+                [18.504979638515653, 73.85429139284874],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_f8818f4880d047c79b0f39e9fd5cddbc = L.popup({"maxWidth": 300});
+
+        
+            var html_1f0660294fcc40419ab4d46af91a76ea = $(`<div id="html_1f0660294fcc40419ab4d46af91a76ea" style="width: 100.0%; height: 100.0%;">Jayashree Paavbhaji</div>`)[0];
+            popup_f8818f4880d047c79b0f39e9fd5cddbc.setContent(html_1f0660294fcc40419ab4d46af91a76ea);
+        
+
+        circle_marker_28c3e96623c24ad3b5bad8268c2760c0.bindPopup(popup_f8818f4880d047c79b0f39e9fd5cddbc)
+        ;
+
+        
+    
+    
+            var circle_marker_638846696fb349de9b3bba1aeb6c00e5 = L.circleMarker(
+                [18.504916886557126, 73.85426809288236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_370a344b39874cee9f4212ca04b387dd = L.popup({"maxWidth": 300});
+
+        
+            var html_32dc8fd2736c426190afe694a9138e05 = $(`<div id="html_32dc8fd2736c426190afe694a9138e05" style="width: 100.0%; height: 100.0%;">Jayshree Garden</div>`)[0];
+            popup_370a344b39874cee9f4212ca04b387dd.setContent(html_32dc8fd2736c426190afe694a9138e05);
+        
+
+        circle_marker_638846696fb349de9b3bba1aeb6c00e5.bindPopup(popup_370a344b39874cee9f4212ca04b387dd)
+        ;
+
+        
+    
+    
+            var circle_marker_403ec00304ec438c95be40898de66e51 = L.circleMarker(
+                [18.506250066857902, 73.85235816418904],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_22453b57d5fa425785b3259d0bf63944 = L.popup({"maxWidth": 300});
+
+        
+            var html_63b167d6c9af4e098c05f0f4e1401cbd = $(`<div id="html_63b167d6c9af4e098c05f0f4e1401cbd" style="width: 100.0%; height: 100.0%;">Girija Pav Bhaji Center</div>`)[0];
+            popup_22453b57d5fa425785b3259d0bf63944.setContent(html_63b167d6c9af4e098c05f0f4e1401cbd);
+        
+
+        circle_marker_403ec00304ec438c95be40898de66e51.bindPopup(popup_22453b57d5fa425785b3259d0bf63944)
+        ;
+
+        
+    
+    
+            var circle_marker_47b93064c498406cae50943d4912d264 = L.circleMarker(
+                [18.5113278, 73.85564013333334],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_60893eafee484095ade85ef9e4d1e880 = L.popup({"maxWidth": 300});
+
+        
+            var html_2f891f181ce847ba89f24e9d81a42c4c = $(`<div id="html_2f891f181ce847ba89f24e9d81a42c4c" style="width: 100.0%; height: 100.0%;">Bajirao Mastani</div>`)[0];
+            popup_60893eafee484095ade85ef9e4d1e880.setContent(html_2f891f181ce847ba89f24e9d81a42c4c);
+        
+
+        circle_marker_47b93064c498406cae50943d4912d264.bindPopup(popup_60893eafee484095ade85ef9e4d1e880)
+        ;
+
+        
+    
+    
+            var circle_marker_14e9f16a081b4a4ab438683c41b99f15 = L.circleMarker(
+                [18.51060968410028, 73.85425939642322],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_c2f2c4e6ba544010aa3497ea30f01f32 = L.popup({"maxWidth": 300});
+
+        
+            var html_2e6e3177027b4ba8b4247ab40aa6ae6e = $(`<div id="html_2e6e3177027b4ba8b4247ab40aa6ae6e" style="width: 100.0%; height: 100.0%;">Bapat Upahar Gruha</div>`)[0];
+            popup_c2f2c4e6ba544010aa3497ea30f01f32.setContent(html_2e6e3177027b4ba8b4247ab40aa6ae6e);
+        
+
+        circle_marker_14e9f16a081b4a4ab438683c41b99f15.bindPopup(popup_c2f2c4e6ba544010aa3497ea30f01f32)
+        ;
+
+        
+    
+    
+            var circle_marker_620f63987338431fae7670500b684861 = L.circleMarker(
+                [18.510440370342007, 73.85372284038633],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_e9e71d7163f1416e8b415833ff8d4b54 = L.popup({"maxWidth": 300});
+
+        
+            var html_6b5c183c60a34b1ea95c563a42a3be46 = $(`<div id="html_6b5c183c60a34b1ea95c563a42a3be46" style="width: 100.0%; height: 100.0%;">P.N.G. Jewellery & Gems</div>`)[0];
+            popup_e9e71d7163f1416e8b415833ff8d4b54.setContent(html_6b5c183c60a34b1ea95c563a42a3be46);
+        
+
+        circle_marker_620f63987338431fae7670500b684861.bindPopup(popup_e9e71d7163f1416e8b415833ff8d4b54)
+        ;
+
+        
+    
+    
+            var circle_marker_d0e046750d0a485ab20ad18c1eca278a = L.circleMarker(
+                [18.506228778624426, 73.85257998754011],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+    
+        var popup_c523f40f12cb452d92976b9c8fa45923 = L.popup({"maxWidth": 300});
+
+        
+            var html_9d063720d4294af5bfdb3fa04568c4ba = $(`<div id="html_9d063720d4294af5bfdb3fa04568c4ba" style="width: 100.0%; height: 100.0%;">Kaka Halwai Sweet Centre</div>`)[0];
+            popup_c523f40f12cb452d92976b9c8fa45923.setContent(html_9d063720d4294af5bfdb3fa04568c4ba);
+        
+
+        circle_marker_d0e046750d0a485ab20ad18c1eca278a.bindPopup(popup_c523f40f12cb452d92976b9c8fa45923)
+        ;
+
+        
+    
+    
+            var feature_group_cb41f37864a948f9b54e792dcff20f4a = L.featureGroup(
+                {}
+            ).addTo(map_21c22a17e7b946bdb1132757b5f7b651);
+        
+</script>

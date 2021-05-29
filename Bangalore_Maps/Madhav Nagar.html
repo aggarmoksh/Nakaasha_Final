@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8dee6058165a483d8f793c78dcfc244c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8dee6058165a483d8f793c78dcfc244c" ></div>
+        
+</body>
+<script>    
+    
+            var map_8dee6058165a483d8f793c78dcfc244c = L.map(
+                "map_8dee6058165a483d8f793c78dcfc244c",
+                {
+                    center: [12.985155, 77.579677],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6657dc5259804494a3c6d7589707bfe0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+            var circle_marker_689f01391f784773b7bdd2598eb4c2ad = L.circleMarker(
+                [12.985300141470223, 77.57947463203604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_b21645b0217d491d8ece08b7dd7e88b5 = L.popup({"maxWidth": 300});
+
+        
+            var html_03f122fdc37a44b48907692cf6fdb934 = $(`<div id="html_03f122fdc37a44b48907692cf6fdb934" style="width: 100.0%; height: 100.0%;">Gold Finch Hotel</div>`)[0];
+            popup_b21645b0217d491d8ece08b7dd7e88b5.setContent(html_03f122fdc37a44b48907692cf6fdb934);
+        
+
+        circle_marker_689f01391f784773b7bdd2598eb4c2ad.bindPopup(popup_b21645b0217d491d8ece08b7dd7e88b5)
+        ;
+
+        
+    
+    
+            var circle_marker_6b9f54dc5f97406d8f86f2682f0767d1 = L.circleMarker(
+                [12.985083310702098, 77.57915233184572],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_44f0de6add1443868b42e65f9cb86860 = L.popup({"maxWidth": 300});
+
+        
+            var html_a352f0707b9448258b2e0b355a2ce6be = $(`<div id="html_a352f0707b9448258b2e0b355a2ce6be" style="width: 100.0%; height: 100.0%;">Bangalore International Hotel</div>`)[0];
+            popup_44f0de6add1443868b42e65f9cb86860.setContent(html_a352f0707b9448258b2e0b355a2ce6be);
+        
+
+        circle_marker_6b9f54dc5f97406d8f86f2682f0767d1.bindPopup(popup_44f0de6add1443868b42e65f9cb86860)
+        ;
+
+        
+    
+    
+            var circle_marker_7520455e612e40d694163c075e3c6dc5 = L.circleMarker(
+                [12.985753649668615, 77.57914631666371],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_187c31a61f5647cb98f34ac3bfb37861 = L.popup({"maxWidth": 300});
+
+        
+            var html_b64a39562f984038997a871035dcc264 = $(`<div id="html_b64a39562f984038997a871035dcc264" style="width: 100.0%; height: 100.0%;">Janardhan Hotel</div>`)[0];
+            popup_187c31a61f5647cb98f34ac3bfb37861.setContent(html_b64a39562f984038997a871035dcc264);
+        
+
+        circle_marker_7520455e612e40d694163c075e3c6dc5.bindPopup(popup_187c31a61f5647cb98f34ac3bfb37861)
+        ;
+
+        
+    
+    
+            var circle_marker_05477719b1994c3fa380b9325a1ec1e8 = L.circleMarker(
+                [12.984948468525834, 77.57911062856498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_0d9e3621ed8041659238b3486d280b17 = L.popup({"maxWidth": 300});
+
+        
+            var html_1c944ed6d60e4dae90c56be76d48bf6c = $(`<div id="html_1c944ed6d60e4dae90c56be76d48bf6c" style="width: 100.0%; height: 100.0%;">Nalapads International Hotel Bangalore</div>`)[0];
+            popup_0d9e3621ed8041659238b3486d280b17.setContent(html_1c944ed6d60e4dae90c56be76d48bf6c);
+        
+
+        circle_marker_05477719b1994c3fa380b9325a1ec1e8.bindPopup(popup_0d9e3621ed8041659238b3486d280b17)
+        ;
+
+        
+    
+    
+            var circle_marker_52e1c7d7c1d24adb825a73995fdd4987 = L.circleMarker(
+                [12.985450559866985, 77.57910503201641],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_fb770e3e198d4203b0d1fe2eaec330fa = L.popup({"maxWidth": 300});
+
+        
+            var html_f3f88bdb902a4b039b0853561dd3149f = $(`<div id="html_f3f88bdb902a4b039b0853561dd3149f" style="width: 100.0%; height: 100.0%;">Abhishek the hotel</div>`)[0];
+            popup_fb770e3e198d4203b0d1fe2eaec330fa.setContent(html_f3f88bdb902a4b039b0853561dd3149f);
+        
+
+        circle_marker_52e1c7d7c1d24adb825a73995fdd4987.bindPopup(popup_fb770e3e198d4203b0d1fe2eaec330fa)
+        ;
+
+        
+    
+    
+            var circle_marker_41b71bf7c16741d09950efd23ed357e3 = L.circleMarker(
+                [12.985113167450754, 77.57901191711426],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_b52998f09e7a43e0a212fa31b93de679 = L.popup({"maxWidth": 300});
+
+        
+            var html_467ed7752ad84658bcd39a8c70cbe6cc = $(`<div id="html_467ed7752ad84658bcd39a8c70cbe6cc" style="width: 100.0%; height: 100.0%;">Nalapad's Hotel Great Moments</div>`)[0];
+            popup_b52998f09e7a43e0a212fa31b93de679.setContent(html_467ed7752ad84658bcd39a8c70cbe6cc);
+        
+
+        circle_marker_41b71bf7c16741d09950efd23ed357e3.bindPopup(popup_b52998f09e7a43e0a212fa31b93de679)
+        ;
+
+        
+    
+    
+            var circle_marker_c3639d6010194cac9bbb497f8860a135 = L.circleMarker(
+                [12.984924298286215, 77.58092389572501],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_19c5a4e21ee0499991e1d5641e1e0c28 = L.popup({"maxWidth": 300});
+
+        
+            var html_4d0db8f7765243489b801720b181c766 = $(`<div id="html_4d0db8f7765243489b801720b181c766" style="width: 100.0%; height: 100.0%;">Hotel 37th Crescent</div>`)[0];
+            popup_19c5a4e21ee0499991e1d5641e1e0c28.setContent(html_4d0db8f7765243489b801720b181c766);
+        
+
+        circle_marker_c3639d6010194cac9bbb497f8860a135.bindPopup(popup_19c5a4e21ee0499991e1d5641e1e0c28)
+        ;
+
+        
+    
+    
+            var circle_marker_7307f2fac118484cb52e4f74e297807d = L.circleMarker(
+                [12.98489, 77.580472],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_49b2d125ff00436d816e58aefc010f79 = L.popup({"maxWidth": 300});
+
+        
+            var html_40e3ba92ffa145068a9c96e17bb5e818 = $(`<div id="html_40e3ba92ffa145068a9c96e17bb5e818" style="width: 100.0%; height: 100.0%;">Gowda's Hotel</div>`)[0];
+            popup_49b2d125ff00436d816e58aefc010f79.setContent(html_40e3ba92ffa145068a9c96e17bb5e818);
+        
+
+        circle_marker_7307f2fac118484cb52e4f74e297807d.bindPopup(popup_49b2d125ff00436d816e58aefc010f79)
+        ;
+
+        
+    
+    
+            var circle_marker_0e25cd5a585a42c2bf2abb240bc66690 = L.circleMarker(
+                [12.98378, 77.578514],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_8be29515b4b04c65bde29cccc1a50ceb = L.popup({"maxWidth": 300});
+
+        
+            var html_6919d08f96a241319dac52d001751132 = $(`<div id="html_6919d08f96a241319dac52d001751132" style="width: 100.0%; height: 100.0%;">Hotel Golden Landmark</div>`)[0];
+            popup_8be29515b4b04c65bde29cccc1a50ceb.setContent(html_6919d08f96a241319dac52d001751132);
+        
+
+        circle_marker_0e25cd5a585a42c2bf2abb240bc66690.bindPopup(popup_8be29515b4b04c65bde29cccc1a50ceb)
+        ;
+
+        
+    
+    
+            var circle_marker_b173aec12bec45dd9463f5f751e5daf6 = L.circleMarker(
+                [12.98380945364174, 77.57816480792427],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_17488b550af0424cb48aa1ec5207048a = L.popup({"maxWidth": 300});
+
+        
+            var html_49ce087e98cc4d4a995ee7987e6ed96b = $(`<div id="html_49ce087e98cc4d4a995ee7987e6ed96b" style="width: 100.0%; height: 100.0%;">Hotel Raceview</div>`)[0];
+            popup_17488b550af0424cb48aa1ec5207048a.setContent(html_49ce087e98cc4d4a995ee7987e6ed96b);
+        
+
+        circle_marker_b173aec12bec45dd9463f5f751e5daf6.bindPopup(popup_17488b550af0424cb48aa1ec5207048a)
+        ;
+
+        
+    
+    
+            var circle_marker_b5762ae23e60459fb55d78472d5aad9b = L.circleMarker(
+                [12.987247823255718, 77.57931210412944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_6a1677bb6897459bbed1c93d2daaf2de = L.popup({"maxWidth": 300});
+
+        
+            var html_886d1793a4034cc687bba02e76446a7f = $(`<div id="html_886d1793a4034cc687bba02e76446a7f" style="width: 100.0%; height: 100.0%;">hotel amar</div>`)[0];
+            popup_6a1677bb6897459bbed1c93d2daaf2de.setContent(html_886d1793a4034cc687bba02e76446a7f);
+        
+
+        circle_marker_b5762ae23e60459fb55d78472d5aad9b.bindPopup(popup_6a1677bb6897459bbed1c93d2daaf2de)
+        ;
+
+        
+    
+    
+            var circle_marker_96f76e99a8394235a8ecdffb32de51fe = L.circleMarker(
+                [12.984284073735703, 77.57642503018087],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_5f01617a7e70478bab2651395169e3da = L.popup({"maxWidth": 300});
+
+        
+            var html_1d444760c33e476ebf1f855bbf6797c3 = $(`<div id="html_1d444760c33e476ebf1f855bbf6797c3" style="width: 100.0%; height: 100.0%;">Renaissance Bengaluru Race Course Hotel</div>`)[0];
+            popup_5f01617a7e70478bab2651395169e3da.setContent(html_1d444760c33e476ebf1f855bbf6797c3);
+        
+
+        circle_marker_96f76e99a8394235a8ecdffb32de51fe.bindPopup(popup_5f01617a7e70478bab2651395169e3da)
+        ;
+
+        
+    
+    
+            var circle_marker_be767a5f9ea84500a9d8bd3c62729b7f = L.circleMarker(
+                [12.985269984652417, 77.57818579673767],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_5cd64d40336347f98bf822ed1b738549 = L.popup({"maxWidth": 300});
+
+        
+            var html_5ecbfe0551b9433e86363ed3665eeefc = $(`<div id="html_5ecbfe0551b9433e86363ed3665eeefc" style="width: 100.0%; height: 100.0%;">The Mine - Hotel Solitaire</div>`)[0];
+            popup_5cd64d40336347f98bf822ed1b738549.setContent(html_5ecbfe0551b9433e86363ed3665eeefc);
+        
+
+        circle_marker_be767a5f9ea84500a9d8bd3c62729b7f.bindPopup(popup_5cd64d40336347f98bf822ed1b738549)
+        ;
+
+        
+    
+    
+            var circle_marker_0230257ed16e4787b9fe6e5cf5df0db7 = L.circleMarker(
+                [12.9835196400491, 77.57778983542208],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_8178afc14b584cf4b7a92a87a6e68e3d = L.popup({"maxWidth": 300});
+
+        
+            var html_5e2cd382e5c9456a95207986a07240a2 = $(`<div id="html_5e2cd382e5c9456a95207986a07240a2" style="width: 100.0%; height: 100.0%;">Taamara Vegetarian Restaurent Hotel Maurya Anex</div>`)[0];
+            popup_8178afc14b584cf4b7a92a87a6e68e3d.setContent(html_5e2cd382e5c9456a95207986a07240a2);
+        
+
+        circle_marker_0230257ed16e4787b9fe6e5cf5df0db7.bindPopup(popup_8178afc14b584cf4b7a92a87a6e68e3d)
+        ;
+
+        
+    
+    
+            var circle_marker_95ff2503bfff421a93f557ed4287c683 = L.circleMarker(
+                [12.981099356718834, 77.57708465988742],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_aeb49543769147869e9cebf5b0990085 = L.popup({"maxWidth": 300});
+
+        
+            var html_0fa5a47827a44b138833f78bc3b487ef = $(`<div id="html_0fa5a47827a44b138833f78bc3b487ef" style="width: 100.0%; height: 100.0%;">Hotel Maurya</div>`)[0];
+            popup_aeb49543769147869e9cebf5b0990085.setContent(html_0fa5a47827a44b138833f78bc3b487ef);
+        
+
+        circle_marker_95ff2503bfff421a93f557ed4287c683.bindPopup(popup_aeb49543769147869e9cebf5b0990085)
+        ;
+
+        
+    
+    
+            var circle_marker_38e097b25d904edfb3421d22a09875c6 = L.circleMarker(
+                [12.980474044296836, 77.57672647380562],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_bc8f7fcf698f45c992ecf0dcc33ddb62 = L.popup({"maxWidth": 300});
+
+        
+            var html_42defb44c4554860a0ec3c7d5c10e060 = $(`<div id="html_42defb44c4554860a0ec3c7d5c10e060" style="width: 100.0%; height: 100.0%;">Hotel Rialto</div>`)[0];
+            popup_bc8f7fcf698f45c992ecf0dcc33ddb62.setContent(html_42defb44c4554860a0ec3c7d5c10e060);
+        
+
+        circle_marker_38e097b25d904edfb3421d22a09875c6.bindPopup(popup_bc8f7fcf698f45c992ecf0dcc33ddb62)
+        ;
+
+        
+    
+    
+            var circle_marker_c797a23910c9448884abd4c452ad3d40 = L.circleMarker(
+                [12.9822161, 77.5816533],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_2381f8dc719946b7ba2a49ed49cd8fe3 = L.popup({"maxWidth": 300});
+
+        
+            var html_ed0db41393004482a42108c3fb777db2 = $(`<div id="html_ed0db41393004482a42108c3fb777db2" style="width: 100.0%; height: 100.0%;">Bangaluru international hotel</div>`)[0];
+            popup_2381f8dc719946b7ba2a49ed49cd8fe3.setContent(html_ed0db41393004482a42108c3fb777db2);
+        
+
+        circle_marker_c797a23910c9448884abd4c452ad3d40.bindPopup(popup_2381f8dc719946b7ba2a49ed49cd8fe3)
+        ;
+
+        
+    
+    
+            var circle_marker_31564efc5d7b4244a22d0ddc38628633 = L.circleMarker(
+                [12.983333, 77.583333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_eb29911710da439ab4eecdaf8ce2fcc9 = L.popup({"maxWidth": 300});
+
+        
+            var html_5d57bc858f054fe0807d323d01d795cf = $(`<div id="html_5d57bc858f054fe0807d323d01d795cf" style="width: 100.0%; height: 100.0%;">Sayanora Hotel</div>`)[0];
+            popup_eb29911710da439ab4eecdaf8ce2fcc9.setContent(html_5d57bc858f054fe0807d323d01d795cf);
+        
+
+        circle_marker_31564efc5d7b4244a22d0ddc38628633.bindPopup(popup_eb29911710da439ab4eecdaf8ce2fcc9)
+        ;
+
+        
+    
+    
+            var circle_marker_1ba465cdb9dd4eb5b6fe24dcd9ba95d5 = L.circleMarker(
+                [12.981976802634826, 77.57617950439453],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_7a15b9da545744e98c6afa71c6fcc4ff = L.popup({"maxWidth": 300});
+
+        
+            var html_60643b2733ff415abca4c732cff6409c = $(`<div id="html_60643b2733ff415abca4c732cff6409c" style="width: 100.0%; height: 100.0%;">Gazebo - Hotel Golden Landmark</div>`)[0];
+            popup_7a15b9da545744e98c6afa71c6fcc4ff.setContent(html_60643b2733ff415abca4c732cff6409c);
+        
+
+        circle_marker_1ba465cdb9dd4eb5b6fe24dcd9ba95d5.bindPopup(popup_7a15b9da545744e98c6afa71c6fcc4ff)
+        ;
+
+        
+    
+    
+            var circle_marker_2ba213008e4f41588abbd8ce6f58bd38 = L.circleMarker(
+                [12.980746269226074, 77.57755279541016],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_4491ab6a3574446584caec2dd22dc791 = L.popup({"maxWidth": 300});
+
+        
+            var html_8b9fdc6e52084c9bb792e7559f204206 = $(`<div id="html_8b9fdc6e52084c9bb792e7559f204206" style="width: 100.0%; height: 100.0%;">Citadel Hotel</div>`)[0];
+            popup_4491ab6a3574446584caec2dd22dc791.setContent(html_8b9fdc6e52084c9bb792e7559f204206);
+        
+
+        circle_marker_2ba213008e4f41588abbd8ce6f58bd38.bindPopup(popup_4491ab6a3574446584caec2dd22dc791)
+        ;
+
+        
+    
+    
+            var circle_marker_969c8dd34f0045179b4ac24065ff6653 = L.circleMarker(
+                [12.984683735195308, 77.57854227492687],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_97d7612a4f1f4cc1adf0d47b37d3f34d = L.popup({"maxWidth": 300});
+
+        
+            var html_fb0ec3a1eb044ae7b05ee5f3894b9d19 = $(`<div id="html_fb0ec3a1eb044ae7b05ee5f3894b9d19" style="width: 100.0%; height: 100.0%;">The Solitaire</div>`)[0];
+            popup_97d7612a4f1f4cc1adf0d47b37d3f34d.setContent(html_fb0ec3a1eb044ae7b05ee5f3894b9d19);
+        
+
+        circle_marker_969c8dd34f0045179b4ac24065ff6653.bindPopup(popup_97d7612a4f1f4cc1adf0d47b37d3f34d)
+        ;
+
+        
+    
+    
+            var circle_marker_98ab5ba748e44fd5b32f7adaa677f76f = L.circleMarker(
+                [12.984729373960668, 77.57847262024343],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_b99c2e459a444584b99dc7bc12e9da9d = L.popup({"maxWidth": 300});
+
+        
+            var html_4ed3383778fe4010a55c16e35f2fd637 = $(`<div id="html_4ed3383778fe4010a55c16e35f2fd637" style="width: 100.0%; height: 100.0%;">Solitaire Boutique Hotels</div>`)[0];
+            popup_b99c2e459a444584b99dc7bc12e9da9d.setContent(html_4ed3383778fe4010a55c16e35f2fd637);
+        
+
+        circle_marker_98ab5ba748e44fd5b32f7adaa677f76f.bindPopup(popup_b99c2e459a444584b99dc7bc12e9da9d)
+        ;
+
+        
+    
+    
+            var circle_marker_1850c56599604fe0be0951a8e963f45e = L.circleMarker(
+                [12.986128287719138, 77.5770958531842],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_b97df57d5d694ac6b15837f8d758e4ae = L.popup({"maxWidth": 300});
+
+        
+            var html_e09285f1f5e442dcb87757c231c70238 = $(`<div id="html_e09285f1f5e442dcb87757c231c70238" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day</div>`)[0];
+            popup_b97df57d5d694ac6b15837f8d758e4ae.setContent(html_e09285f1f5e442dcb87757c231c70238);
+        
+
+        circle_marker_1850c56599604fe0be0951a8e963f45e.bindPopup(popup_b97df57d5d694ac6b15837f8d758e4ae)
+        ;
+
+        
+    
+    
+            var circle_marker_cbff2c714712441899e43b9e86ec57c5 = L.circleMarker(
+                [12.984871848883593, 77.5839726692939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+    
+        var popup_b1fe83d79df94bb095ad4736521a7bac = L.popup({"maxWidth": 300});
+
+        
+            var html_8f4098b954ad4c48b4e1c29cb5b9b713 = $(`<div id="html_8f4098b954ad4c48b4e1c29cb5b9b713" style="width: 100.0%; height: 100.0%;">The Blue Bar</div>`)[0];
+            popup_b1fe83d79df94bb095ad4736521a7bac.setContent(html_8f4098b954ad4c48b4e1c29cb5b9b713);
+        
+
+        circle_marker_cbff2c714712441899e43b9e86ec57c5.bindPopup(popup_b1fe83d79df94bb095ad4736521a7bac)
+        ;
+
+        
+    
+    
+            var feature_group_907696bf97cb4ba69672487c4866abd3 = L.featureGroup(
+                {}
+            ).addTo(map_8dee6058165a483d8f793c78dcfc244c);
+        
+</script>

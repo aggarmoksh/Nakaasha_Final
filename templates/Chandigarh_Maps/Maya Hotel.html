@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c00da86e3ace4a3eac82eda1ec2a3a30 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c00da86e3ace4a3eac82eda1ec2a3a30" ></div>
+        
+</body>
+<script>    
+    
+            var map_c00da86e3ace4a3eac82eda1ec2a3a30 = L.map(
+                "map_c00da86e3ace4a3eac82eda1ec2a3a30",
+                {
+                    center: [30.72709729866268, 76.77217112841885],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_376b0578ab3c41bda8e9d0bdf9a8f446 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+            var circle_marker_153dc0c43a2c43b8b54ee8b31c021a75 = L.circleMarker(
+                [30.728041412271235, 76.77040494785312],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_1160481248ac41928a9663c8176b58e0 = L.popup({"maxWidth": 300});
+
+        
+            var html_12ce62d64d194772a3569d7cffcc8bb5 = $(`<div id="html_12ce62d64d194772a3569d7cffcc8bb5" style="width: 100.0%; height: 100.0%;">chef's gateway | Jagat Singh & Sons Agencies</div>`)[0];
+            popup_1160481248ac41928a9663c8176b58e0.setContent(html_12ce62d64d194772a3569d7cffcc8bb5);
+        
+
+        circle_marker_153dc0c43a2c43b8b54ee8b31c021a75.bindPopup(popup_1160481248ac41928a9663c8176b58e0)
+        ;
+
+        
+    
+    
+            var circle_marker_d503af68d5764813aa6c728724204375 = L.circleMarker(
+                [30.72973959682234, 76.77319702558874],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_8a0b12cff0bd43dfb28b3fd808c88d41 = L.popup({"maxWidth": 300});
+
+        
+            var html_04686c697b1f4e93b70a267fd025906f = $(`<div id="html_04686c697b1f4e93b70a267fd025906f" style="width: 100.0%; height: 100.0%;">The Coffee Bean & Tea Leaf</div>`)[0];
+            popup_8a0b12cff0bd43dfb28b3fd808c88d41.setContent(html_04686c697b1f4e93b70a267fd025906f);
+        
+
+        circle_marker_d503af68d5764813aa6c728724204375.bindPopup(popup_8a0b12cff0bd43dfb28b3fd808c88d41)
+        ;
+
+        
+    
+    
+            var circle_marker_5a824d42c68d4fb2912ee2790b92bcdb = L.circleMarker(
+                [30.73005887120928, 76.77361532665107],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_eaeb5586d9c646dc8b7c2ac41b152a45 = L.popup({"maxWidth": 300});
+
+        
+            var html_67f80799c5cd44caa57408beb6d58a24 = $(`<div id="html_67f80799c5cd44caa57408beb6d58a24" style="width: 100.0%; height: 100.0%;">Aroma 22</div>`)[0];
+            popup_eaeb5586d9c646dc8b7c2ac41b152a45.setContent(html_67f80799c5cd44caa57408beb6d58a24);
+        
+
+        circle_marker_5a824d42c68d4fb2912ee2790b92bcdb.bindPopup(popup_eaeb5586d9c646dc8b7c2ac41b152a45)
+        ;
+
+        
+    
+    
+            var circle_marker_fd882f9a52cf422aaf9920a5231eeaca = L.circleMarker(
+                [30.7301, 76.773461],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_0019e9f01d11489fb7095aa5f9df1bb1 = L.popup({"maxWidth": 300});
+
+        
+            var html_547af8c249d84afc92400de92a90b189 = $(`<div id="html_547af8c249d84afc92400de92a90b189" style="width: 100.0%; height: 100.0%;">McDonald's</div>`)[0];
+            popup_0019e9f01d11489fb7095aa5f9df1bb1.setContent(html_547af8c249d84afc92400de92a90b189);
+        
+
+        circle_marker_fd882f9a52cf422aaf9920a5231eeaca.bindPopup(popup_0019e9f01d11489fb7095aa5f9df1bb1)
+        ;
+
+        
+    
+    
+            var circle_marker_6cc71666246e439faa5ed34b70acbdab = L.circleMarker(
+                [30.72470880295986, 76.76877460774604],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_9078eca7eebc434f944af06f893448ed = L.popup({"maxWidth": 300});
+
+        
+            var html_6b9a79722cc84ede97cf0ac18dba09f4 = $(`<div id="html_6b9a79722cc84ede97cf0ac18dba09f4" style="width: 100.0%; height: 100.0%;">Domino's Pizza</div>`)[0];
+            popup_9078eca7eebc434f944af06f893448ed.setContent(html_6b9a79722cc84ede97cf0ac18dba09f4);
+        
+
+        circle_marker_6cc71666246e439faa5ed34b70acbdab.bindPopup(popup_9078eca7eebc434f944af06f893448ed)
+        ;
+
+        
+    
+    
+            var circle_marker_a595a49771854f3dba1468d7b8e6980b = L.circleMarker(
+                [30.726889920930414, 76.7670073619193],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_363fc82783834358ad47fecd8c094944 = L.popup({"maxWidth": 300});
+
+        
+            var html_7bc8568d57dd469a9b4fc8f1b0b3e72c = $(`<div id="html_7bc8568d57dd469a9b4fc8f1b0b3e72c" style="width: 100.0%; height: 100.0%;">The Cafe @ JW</div>`)[0];
+            popup_363fc82783834358ad47fecd8c094944.setContent(html_7bc8568d57dd469a9b4fc8f1b0b3e72c);
+        
+
+        circle_marker_a595a49771854f3dba1468d7b8e6980b.bindPopup(popup_363fc82783834358ad47fecd8c094944)
+        ;
+
+        
+    
+    
+            var circle_marker_4accee193f9b4fe0a4d5e75dc4f30b8e = L.circleMarker(
+                [30.72700868901726, 76.76718718211326],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+    
+        var popup_0fe221ac8b5c49fa8404061bc833f154 = L.popup({"maxWidth": 300});
+
+        
+            var html_3558dca9b35d4b6dae845a2e91c5b74a = $(`<div id="html_3558dca9b35d4b6dae845a2e91c5b74a" style="width: 100.0%; height: 100.0%;">Chandigarh Baking Co.</div>`)[0];
+            popup_0fe221ac8b5c49fa8404061bc833f154.setContent(html_3558dca9b35d4b6dae845a2e91c5b74a);
+        
+
+        circle_marker_4accee193f9b4fe0a4d5e75dc4f30b8e.bindPopup(popup_0fe221ac8b5c49fa8404061bc833f154)
+        ;
+
+        
+    
+    
+            var feature_group_e02ca267e6014f089de48fa056ba052c = L.featureGroup(
+                {}
+            ).addTo(map_c00da86e3ace4a3eac82eda1ec2a3a30);
+        
+</script>

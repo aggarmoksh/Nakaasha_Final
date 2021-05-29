@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cd8f0df13f094b30bb23c6acda3748d1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cd8f0df13f094b30bb23c6acda3748d1" ></div>
+        
+</body>
+<script>    
+    
+            var map_cd8f0df13f094b30bb23c6acda3748d1 = L.map(
+                "map_cd8f0df13f094b30bb23c6acda3748d1",
+                {
+                    center: [19.151713, 72.846371],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7fc1c6ad8a3440b5bb2c122ddab0e067 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+            var circle_marker_ce393d512fb74a7295f329eed01b545a = L.circleMarker(
+                [19.15178371946652, 72.84608703629478],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+        var popup_23a3971777044b8683410eef9191b885 = L.popup({"maxWidth": 300});
+
+        
+            var html_bc92f3edce524388bce6ac017c753de5 = $(`<div id="html_bc92f3edce524388bce6ac017c753de5" style="width: 100.0%; height: 100.0%;">Movie Star</div>`)[0];
+            popup_23a3971777044b8683410eef9191b885.setContent(html_bc92f3edce524388bce6ac017c753de5);
+        
+
+        circle_marker_ce393d512fb74a7295f329eed01b545a.bindPopup(popup_23a3971777044b8683410eef9191b885)
+        ;
+
+        
+    
+    
+            var circle_marker_951c7fadc0de4256be1bf6ed5639b055 = L.circleMarker(
+                [19.149622380331188, 72.84812947103804],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+        var popup_e29eb0b43fc448d0bebf9c7dacbd050d = L.popup({"maxWidth": 300});
+
+        
+            var html_77c155de58d345b58272e06085b7615e = $(`<div id="html_77c155de58d345b58272e06085b7615e" style="width: 100.0%; height: 100.0%;">station road tapri</div>`)[0];
+            popup_e29eb0b43fc448d0bebf9c7dacbd050d.setContent(html_77c155de58d345b58272e06085b7615e);
+        
+
+        circle_marker_951c7fadc0de4256be1bf6ed5639b055.bindPopup(popup_e29eb0b43fc448d0bebf9c7dacbd050d)
+        ;
+
+        
+    
+    
+            var circle_marker_3d139452abde48c0a8fe3b878f30cd7c = L.circleMarker(
+                [19.151148, 72.849655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+        var popup_7d94ffc015064518ad95f5db1535cb4e = L.popup({"maxWidth": 300});
+
+        
+            var html_34c58ab4aa6f4251bca1ff577b63fdca = $(`<div id="html_34c58ab4aa6f4251bca1ff577b63fdca" style="width: 100.0%; height: 100.0%;">राम मंदिर रोड स्टेशन</div>`)[0];
+            popup_7d94ffc015064518ad95f5db1535cb4e.setContent(html_34c58ab4aa6f4251bca1ff577b63fdca);
+        
+
+        circle_marker_3d139452abde48c0a8fe3b878f30cd7c.bindPopup(popup_7d94ffc015064518ad95f5db1535cb4e)
+        ;
+
+        
+    
+    
+            var circle_marker_6af1db548b5248bfaed1d75bf4e022cf = L.circleMarker(
+                [19.151623, 72.8501],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+        var popup_5572929cdc1d46cc8eb7f89e160acd2c = L.popup({"maxWidth": 300});
+
+        
+            var html_1fa80b05f51044688bcd6ac155672350 = $(`<div id="html_1fa80b05f51044688bcd6ac155672350" style="width: 100.0%; height: 100.0%;">Ram Mandir Railway Station</div>`)[0];
+            popup_5572929cdc1d46cc8eb7f89e160acd2c.setContent(html_1fa80b05f51044688bcd6ac155672350);
+        
+
+        circle_marker_6af1db548b5248bfaed1d75bf4e022cf.bindPopup(popup_5572929cdc1d46cc8eb7f89e160acd2c)
+        ;
+
+        
+    
+    
+            var circle_marker_66fafc9b087b440fb4f347896076f7d9 = L.circleMarker(
+                [19.1553549883037, 72.84605125938381],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+        var popup_c8cc553160004a94ad9c503dbf418814 = L.popup({"maxWidth": 300});
+
+        
+            var html_c3f62a10ce7c416dbcf0eebbc732b6f7 = $(`<div id="html_c3f62a10ce7c416dbcf0eebbc732b6f7" style="width: 100.0%; height: 100.0%;">Batheja tyres</div>`)[0];
+            popup_c8cc553160004a94ad9c503dbf418814.setContent(html_c3f62a10ce7c416dbcf0eebbc732b6f7);
+        
+
+        circle_marker_66fafc9b087b440fb4f347896076f7d9.bindPopup(popup_c8cc553160004a94ad9c503dbf418814)
+        ;
+
+        
+    
+    
+            var circle_marker_e0a03a4382ed4404a4554e4e0fab084f = L.circleMarker(
+                [19.148555237510916, 72.84298577504518],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+    
+        var popup_782c44e80e8d4468b7b042ac5713db7c = L.popup({"maxWidth": 300});
+
+        
+            var html_24489524f9ba45eea2b913a641490056 = $(`<div id="html_24489524f9ba45eea2b913a641490056" style="width: 100.0%; height: 100.0%;">Oshiwara Old Furniture Market</div>`)[0];
+            popup_782c44e80e8d4468b7b042ac5713db7c.setContent(html_24489524f9ba45eea2b913a641490056);
+        
+
+        circle_marker_e0a03a4382ed4404a4554e4e0fab084f.bindPopup(popup_782c44e80e8d4468b7b042ac5713db7c)
+        ;
+
+        
+    
+    
+            var feature_group_060ccc25cc6f425392edf30d20217d67 = L.featureGroup(
+                {}
+            ).addTo(map_cd8f0df13f094b30bb23c6acda3748d1);
+        
+</script>

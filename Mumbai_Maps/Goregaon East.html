@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4dbf82100db84f1f993d3ff5a27560de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4dbf82100db84f1f993d3ff5a27560de" ></div>
+        
+</body>
+<script>    
+    
+            var map_4dbf82100db84f1f993d3ff5a27560de = L.map(
+                "map_4dbf82100db84f1f993d3ff5a27560de",
+                {
+                    center: [19.161806, 72.85759],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbcc57f4de1445ba8863c9b32b33229c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4dbf82100db84f1f993d3ff5a27560de);
+        
+    
+            var circle_marker_a6a41909e72342f8901b6f99b0fad06e = L.circleMarker(
+                [19.162362150879936, 72.85697221805393],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4dbf82100db84f1f993d3ff5a27560de);
+        
+    
+        var popup_4fa04df86d5c487d947aa4b0e6ba502a = L.popup({"maxWidth": 300});
+
+        
+            var html_e1b93afe8bce4c76821af5446d584332 = $(`<div id="html_e1b93afe8bce4c76821af5446d584332" style="width: 100.0%; height: 100.0%;">The Fern - An Eco Hotel</div>`)[0];
+            popup_4fa04df86d5c487d947aa4b0e6ba502a.setContent(html_e1b93afe8bce4c76821af5446d584332);
+        
+
+        circle_marker_a6a41909e72342f8901b6f99b0fad06e.bindPopup(popup_4fa04df86d5c487d947aa4b0e6ba502a)
+        ;
+
+        
+    
+    
+            var circle_marker_4814505783c64b43b8927b14d62a1a13 = L.circleMarker(
+                [19.164788542726573, 72.85741829371118],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4dbf82100db84f1f993d3ff5a27560de);
+        
+    
+        var popup_8bf56fd2896e40029f6932ea099992d6 = L.popup({"maxWidth": 300});
+
+        
+            var html_b2f1b1cc08494548978dd6744b606e9e = $(`<div id="html_b2f1b1cc08494548978dd6744b606e9e" style="width: 100.0%; height: 100.0%;">McDonald's</div>`)[0];
+            popup_8bf56fd2896e40029f6932ea099992d6.setContent(html_b2f1b1cc08494548978dd6744b606e9e);
+        
+
+        circle_marker_4814505783c64b43b8927b14d62a1a13.bindPopup(popup_8bf56fd2896e40029f6932ea099992d6)
+        ;
+
+        
+    
+    
+            var circle_marker_6617554ada2841389dc506291248ecb4 = L.circleMarker(
+                [19.165798872820286, 72.85839908031794],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4dbf82100db84f1f993d3ff5a27560de);
+        
+    
+        var popup_65879eabbb9c456aa46c1d87e5655291 = L.popup({"maxWidth": 300});
+
+        
+            var html_2f1d1568f378435b9cd182a805084028 = $(`<div id="html_2f1d1568f378435b9cd182a805084028" style="width: 100.0%; height: 100.0%;">Aarey Milk Colony</div>`)[0];
+            popup_65879eabbb9c456aa46c1d87e5655291.setContent(html_2f1d1568f378435b9cd182a805084028);
+        
+
+        circle_marker_6617554ada2841389dc506291248ecb4.bindPopup(popup_65879eabbb9c456aa46c1d87e5655291)
+        ;
+
+        
+    
+    
+            var circle_marker_2f2852777c964cd29588cb6f0c1dd1c4 = L.circleMarker(
+                [19.165464143159834, 72.85844523488404],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4dbf82100db84f1f993d3ff5a27560de);
+        
+    
+        var popup_b7e8625111e249fb837d163f287e6444 = L.popup({"maxWidth": 300});
+
+        
+            var html_e0c3d98032034d9b9ac21ddd2e9496c8 = $(`<div id="html_e0c3d98032034d9b9ac21ddd2e9496c8" style="width: 100.0%; height: 100.0%;">Fizzy</div>`)[0];
+            popup_b7e8625111e249fb837d163f287e6444.setContent(html_e0c3d98032034d9b9ac21ddd2e9496c8);
+        
+
+        circle_marker_2f2852777c964cd29588cb6f0c1dd1c4.bindPopup(popup_b7e8625111e249fb837d163f287e6444)
+        ;
+
+        
+    
+    
+            var feature_group_bca2048e0ae7487ba9cb2e1704a69dc5 = L.featureGroup(
+                {}
+            ).addTo(map_4dbf82100db84f1f993d3ff5a27560de);
+        
+</script>

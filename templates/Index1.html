@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Sign-up</title>
+</head>
+    <body>
+        <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Nakaasha</span>
+    </a>
+        </div>
+    </header>
+        
+        
+        <form action="/signup/" method="post">
+        
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
+  <div class="-mx-3 md:flex mb-6">
+    <div class="md:w-1/2 px-3 mb-6 md:mb-0">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
+        FIRSTNAME
+      </label>
+      <input type="text" name= 'FIRSTNAME' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3" id="FIRSTNAME" type="text" placeholder="">
+      <p class="text-red text-xs italic">Please fill out this field.</p>
+    </div>
+    <div class="md:w-1/2 px-3">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name">
+        LASTNAME
+      </label>
+      <input type="text" name='LASTNAME' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="LASTNAME" type="text" placeholder="">
+    </div>
+  </div>
+  <div class="-mx-3 md:flex mb-6">
+    <div class="md:w-full px-3">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
+        USERNAME
+      </label>
+      <input type="text" name='USERNAME' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="USERNAME"  placeholder="example@demomail.com">
+    </div>
+  </div>
+  <div class="-mx-3 md:flex mb-6">
+    <div class="md:w-full px-3">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
+        PASSWORD
+      </label>
+      <input type="password" name='PASSWORD' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="PASSWORD" type="password" placeholder="******************">
+      <p class="text-grey-dark text-xs italic">Password Must Be Alphanumeric</p>
+    </div>
+  </div>
+  <div class="-mx-3 md:flex mb-2">
+    <div class="md:w-1/2 px-3 mb-6 md:mb-0">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-city">
+        CITY
+      </label>
+      <input type="text" name='CITY' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="CITY" type="text" placeholder="Delhi">
+    </div>
+	<div class="-mx-3 md:flex mb-2">
+    <div class="md:w-1/2 px-3 mb-6 md:mb-0">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-city">
+        STATE
+      </label>
+      <input type="text" name='STATE' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="CITY" type="text" placeholder="Delhi">
+    </div>
+   <!-- <div class="md:w-1/2 px-3">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-state">
+        STATE
+      </label>
+      <div class="relative">
+        <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="STATE">
+          <option>Maharashtra</option>
+          <option>Chandigarh</option>
+          <option>Telangana</option>
+        </select>
+        <div name='STATE' class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
+        </div>
+      </div>
+    </div>-->
+    <div class="md:w-1/2 px-3">
+      <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-zip">
+        PINCODE
+      </label>
+      <input type="tel" name='PINCODE' class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="PINCODE" type="text" placeholder="431001">
+    </div>
+  </div>
+</div>
+      
+        <button type="submit" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Sign Up</button> 
+      
+	  
+	  <!--
+	  <input type="text" class="input-box" name="FIRSTNAME" placeholder="FIRSTNAME" 
+        required>
+		<input type="text" class="input-box" name="LASTNAME" placeholder="LASTNAME" 
+        required>
+		<input type="text" class="input-box" name="USERNAME" placeholder="USERNAME" 
+        required>
+		<input type="password" class="input-box" name="PASSWORD" placeholder="PASSWORD" 
+        required>
+		<input type="text" class="input-box" name="CITY" placeholder="CITY" 
+        required>
+		<input type="text" class="input-box" name="STATE" placeholder="STATE" 
+        required>
+		<input type="tel" name="PINCODE" class="input-box" placeholder="PINCODE" 
+        required>
+		
+		
+
+		<button type="submit" class="submit-btn"> Submit</button>
+	  -->
+	  
+	  
+	  
+	  </form> 
+    </body>
+</html>

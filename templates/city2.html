@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Select City</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Nakaasha</span>
+      </a>
+        </div>
+    </header>
+    
+    
+    
+    
+ 
+  <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Want to know what's nearby, hit us up with your location below !</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Exploratory Analysis Of Geolocational Data.</p>
+    </div>
+    <div class="flex flex-wrap">
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+	 <!-- <img src="{{url_for('static', filename='Rock_G.jpg')}}" alt="Rock_Garden" width="300" height="400">-->
+	 <img src="https://source.unsplash.com/1920x1080/?RockGarden,Sukhna" alt="Rock_Garden" width="300" height="400">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2" href='/loadMap2'>Chandigarh</h2>
+        <p class="leading-relaxed text-base mb-4">The "City Beautiful" located at the picturesque junction of foothills of the Himalayas Mountain.</p>
+        <a class="text-indigo-500 inline-flex items-center" href='/loadMap2'>proceed
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+	  <img src="https://source.unsplash.com/1920x1080/?Pune" alt="Palace" width="1280" height="720">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Pune</h2>
+        <p class="leading-relaxed text-base mb-4">City Ranked as ""Most Livable City in India""</p>
+        <a class="text-indigo-500 inline-flex items-center" href='/loadMap1'>proceed
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+	  <img src="https://source.unsplash.com/1920x1080/?MarineDrive,GatewayofIndia" alt="Marine" width="1280" height="720">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Mumbai</h2>
+        <p class="leading-relaxed text-base mb-4"> called as Island city. These seven islands are as follows: Isle of Bombay, Mazagaon, Colaba, Old Woman’s Island, Parel, Worli, and Salsette Island.</p>
+        <a class="text-indigo-500 inline-flex items-center" href='/loadMap4'>proceed
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+	  <img src="https://source.unsplash.com/1920x1080/?Mysore,Bannerghatta,LalBagh" alt="Gate" width="1280" height="720">
+        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Bengluru</h2>
+        <p class="leading-relaxed text-base mb-4">Regarded as the "Silicon Valley of India" Home to Start-Ups ,famous for it's people and Diversity.</p>
+        <a class="text-indigo-500 inline-flex items-center" href='/loadMap3'>proceed
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div> 
+      <form action='/' class="col s12">
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Back to Home</button>
+    </form>
+  </div>
+</section>
+
+
+
+</body>
+</html>

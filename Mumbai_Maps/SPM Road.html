@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0a975a84fa45488ba1e99243660e7281 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0a975a84fa45488ba1e99243660e7281" ></div>
+        
+</body>
+<script>    
+    
+            var map_0a975a84fa45488ba1e99243660e7281 = L.map(
+                "map_0a975a84fa45488ba1e99243660e7281",
+                {
+                    center: [18.9986, 72.851867],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5c73a3a9dafc4e2ea7af16b823c37cf9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0a975a84fa45488ba1e99243660e7281);
+        
+    
+            var circle_marker_7a420db225b84465b39c9c08701f4d14 = L.circleMarker(
+                [18.99936117439511, 72.85459706776874],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0a975a84fa45488ba1e99243660e7281);
+        
+    
+        var popup_0aa2fd75399f40988d181f704b9de56a = L.popup({"maxWidth": 300});
+
+        
+            var html_0ad513af81b04784876aab93a425d56d = $(`<div id="html_0ad513af81b04784876aab93a425d56d" style="width: 100.0%; height: 100.0%;">Sewri Railway Station</div>`)[0];
+            popup_0aa2fd75399f40988d181f704b9de56a.setContent(html_0ad513af81b04784876aab93a425d56d);
+        
+
+        circle_marker_7a420db225b84465b39c9c08701f4d14.bindPopup(popup_0aa2fd75399f40988d181f704b9de56a)
+        ;
+
+        
+    
+    
+            var circle_marker_85b1b6b59d0c47c9ac787e76ad9de584 = L.circleMarker(
+                [18.998786533160853, 72.85025843135303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0a975a84fa45488ba1e99243660e7281);
+        
+    
+        var popup_df7eb28da5e64e279ea83e2c70359be6 = L.popup({"maxWidth": 300});
+
+        
+            var html_a84bb54371524197b4a0c5226af02a21 = $(`<div id="html_a84bb54371524197b4a0c5226af02a21" style="width: 100.0%; height: 100.0%;">sewri market</div>`)[0];
+            popup_df7eb28da5e64e279ea83e2c70359be6.setContent(html_a84bb54371524197b4a0c5226af02a21);
+        
+
+        circle_marker_85b1b6b59d0c47c9ac787e76ad9de584.bindPopup(popup_df7eb28da5e64e279ea83e2c70359be6)
+        ;
+
+        
+    
+    
+            var circle_marker_24a83d86d32d4dbdbde02ae847a60d60 = L.circleMarker(
+                [18.997909695687092, 72.8523123699596],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0a975a84fa45488ba1e99243660e7281);
+        
+    
+        var popup_12dee2678af145c8813e31ee6948bc5c = L.popup({"maxWidth": 300});
+
+        
+            var html_7e8513bf55ca403f8940ea2d9485e0a1 = $(`<div id="html_7e8513bf55ca403f8940ea2d9485e0a1" style="width: 100.0%; height: 100.0%;">Probhodhankar Thackrey Udan Bus Depot</div>`)[0];
+            popup_12dee2678af145c8813e31ee6948bc5c.setContent(html_7e8513bf55ca403f8940ea2d9485e0a1);
+        
+
+        circle_marker_24a83d86d32d4dbdbde02ae847a60d60.bindPopup(popup_12dee2678af145c8813e31ee6948bc5c)
+        ;
+
+        
+    
+    
+            var circle_marker_ac80c836987c4bc48970ca0568392324 = L.circleMarker(
+                [18.997728056678607, 72.85441244652236],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0a975a84fa45488ba1e99243660e7281);
+        
+    
+        var popup_fde42c48251e4fb097e45ce72918a202 = L.popup({"maxWidth": 300});
+
+        
+            var html_eebf4110ab18488bb4e9381fd7dde013 = $(`<div id="html_eebf4110ab18488bb4e9381fd7dde013" style="width: 100.0%; height: 100.0%;">Sweri Jeti</div>`)[0];
+            popup_fde42c48251e4fb097e45ce72918a202.setContent(html_eebf4110ab18488bb4e9381fd7dde013);
+        
+
+        circle_marker_ac80c836987c4bc48970ca0568392324.bindPopup(popup_fde42c48251e4fb097e45ce72918a202)
+        ;
+
+        
+    
+    
+            var feature_group_941ac2329a9743bcbcaf6c6c577ec1e8 = L.featureGroup(
+                {}
+            ).addTo(map_0a975a84fa45488ba1e99243660e7281);
+        
+</script>
