@@ -263,11 +263,11 @@ def chd():
     
 @app.route('/CMap1', methods=['POST','GET'])
 def ChdMap1():
-     return render_template('Chandigarh_Maps/Cactus Garden.html')
+     return render_template('Chandigarh_Maps/CCET.html')
 
 @app.route('/CMap2', methods=['POST','GET'])
 def ChdMap2():
-     return render_template('Chandigarh_Maps/CCET.html')
+     return render_template('Chandigarh_Maps/Cactus Garden.html')
      
 @app.route('/CMap3', methods=['POST','GET'])
 def ChdMap3():
@@ -646,6 +646,16 @@ def About():
  
     
     return render_template('about.html')
+    
+@app.route('/locator', methods=['POST','GET'])
+
+def Loc(): 
+    return render_template('locator.html')
+    
+@app.route('/coord', methods=['POST','GET'])
+
+def Coord(): 
+    return render_template('Category.html')    
 
 # api json 
 @app.route('/sum', methods=['GET','POST'])
