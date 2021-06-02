@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css" rel="stylesheet">
+	<title>Select Street</title>
+     
+    <body>
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">Location Extractor</span>
+      </a>
+        </div>
+    </header>
+    
+  <p class="mb-8 leading-relaxed">Help Us by providing Your Coordinates to Give you better and Satisfactory Results From Our Services.</p>       
+
+ 
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"  onclick="getlocation()">Click Here</button>
+        <p id="demo1"></p>
+ 
+        <script>
+        var variable1 = document.getElementById("demo1");
+        function getlocation(){
+                navigator.geolocation.getCurrentPosition(showLoc);
+        }
+        function showLoc(pos){
+                variable1.innerHTML = " Current Location's Latitude : " + pos.coords.latitude + "<br>Current Location's Longitude : " + pos.coords.longitude;
+            }
+        </script>
+    </body>
+    </head>
+</html>
