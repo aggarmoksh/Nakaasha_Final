@@ -489,8 +489,155 @@ def BangMap38():
 @app.route('/BMap39', methods=['POST','GET'])
 def BangMap39():    
     return render_template('Bangalore_Maps/Wilson Gardens.html')
-
     
+# =====================================
+#  Chandigarh Attractions Maps
+# =====================================
+@app.route('/Cmatt1', methods=['POST','GET'])
+def Cmattr1():    
+    return render_template('testmap1.html')
+
+# =====================================
+#  Pune Attractions Maps
+# =====================================
+@app.route('/Pmatt1', methods=['POST','GET'])
+def Pmattr1():    
+    return render_template('testmap2.html')
+    
+# =====================================
+#  Bangalore Attractions Maps
+# =====================================
+@app.route('/Bmatt1', methods=['POST','GET'])
+def Bmattr1():    
+    return render_template('testmap3.html')    
+
+
+# =====================================
+#  Chandigarh Attractions Info
+# =====================================
+@app.route('/Catt1', methods=['POST','GET'])
+def Cattr1():    
+    return render_template('Chandigarh Attractions/Sukhna Lake.html')
+    
+@app.route('/Catt2', methods=['POST','GET'])
+def Cattr2():    
+    return render_template('Chandigarh Attractions/Rock Garden.html')
+
+@app.route('/Catt3', methods=['POST','GET'])
+def Cattr3():    
+    return render_template('Chandigarh Attractions/Capitol Complex.html')
+
+@app.route('/Catt4', methods=['POST','GET'])
+def Cattr4():    
+    return render_template('Chandigarh Attractions/Rose Garden.html')
+
+@app.route('/Catt5', methods=['POST','GET'])
+def Cattr5():    
+    return render_template('Chandigarh Attractions/Garden of silence.html')
+
+@app.route('/Catt6', methods=['POST','GET'])
+def Cattr6():    
+    return render_template('Chandigarh Attractions/Art Gallery.html')
+
+@app.route('/Catt7', methods=['POST','GET'])
+def Cattr7():    
+    return render_template('Chandigarh Attractions/Elante Mall.html')
+
+@app.route('/Catt8', methods=['POST','GET'])
+def Cattr8():    
+    return render_template('Chandigarh Attractions/Japanese Garden.html')
+
+@app.route('/Catt9', methods=['POST','GET'])
+def Cattr9():    
+    return render_template('Chandigarh Attractions/Punjab University.html')
+
+@app.route('/Catt10', methods=['POST','GET'])
+def Cattr10():    
+    return render_template('Chandigarh Attractions/Nepli Forest Reserve.html')    
+
+
+# =====================================
+#  Bangalore Attractions Info
+# =====================================
+@app.route('/Batt1', methods=['POST','GET'])
+def Battr1():    
+    return render_template('Bangalore Attractions/Art of Living.html')
+    
+@app.route('/Batt2', methods=['POST','GET'])
+def Battr2():    
+    return render_template('Bangalore Attractions/Bannerghatta Zoo.html')
+
+@app.route('/Batt3', methods=['POST','GET'])
+def Battr3():    
+    return render_template('Bangalore Attractions/Bpalace.html')
+
+@app.route('/Batt4', methods=['POST','GET'])
+def Battr4():    
+    return render_template('Bangalore Attractions/Bull temple.html')
+
+@app.route('/Batt5', methods=['POST','GET'])
+def Battr5():    
+    return render_template('Bangalore Attractions/Commercial Street.html')
+
+@app.route('/Batt6', methods=['POST','GET'])
+def Battr6():    
+    return render_template('Bangalore Attractions/Cubbon Park.html')
+
+@app.route('/Batt7', methods=['POST','GET'])
+def Battr7():    
+    return render_template('Bangalore Attractions/Dodda Temple.html')
+
+@app.route('/Batt8', methods=['POST','GET'])
+def Battr8():    
+    return render_template('Bangalore Attractions/Hal Aeospace.html')
+
+@app.route('/Batt9', methods=['POST','GET'])
+def Battr9():    
+    return render_template('Bangalore Attractions/Indian Music.html')
+
+@app.route('/Batt10', methods=['POST','GET'])
+def Battr10():    
+    return render_template('Bangalore Attractions/Innovative Film City.html') 
+
+@app.route('/Batt11', methods=['POST','GET'])
+def Battr11():    
+    return render_template('Bangalore Attractions/ISKCON Temple.html')
+    
+@app.route('/Batt12', methods=['POST','GET'])
+def Battr12():    
+    return render_template('Bangalore Attractions/Lalbaugh Botanical garden.html')
+
+@app.route('/Batt13', methods=['POST','GET'])
+def Battr13():    
+    return render_template('Bangalore Attractions/Phoenix.html')
+
+@app.route('/Batt14', methods=['POST','GET'])
+def Battr14():    
+    return render_template('Bangalore Attractions/shanmukha.html')
+
+@app.route('/Batt15', methods=['POST','GET'])
+def Battr15():    
+    return render_template('Bangalore Attractions/Shivatemple.html')
+
+@app.route('/Batt16', methods=['POST','GET'])
+def Battr16():    
+    return render_template('Bangalore Attractions/Tipu sultan palace.html')
+
+@app.route('/Batt17', methods=['POST','GET'])
+def Battr17():    
+    return render_template('Bangalore Attractions/UB City.html')
+
+@app.route('/Batt18', methods=['POST','GET'])
+def Battr18():    
+    return render_template('Bangalore Attractions/Vidhana Soudha.html')
+
+@app.route('/Batt19', methods=['POST','GET'])
+def Battr19():    
+    return render_template('Bangalore Attractions/Vishvesvaraya Museum.html')
+
+@app.route('/Batt20', methods=['POST','GET'])
+def Battr20():    
+    return render_template('Bangalore Attractions/Wonderla.html')     
 # =====================================
 #  Mumbai Data
 # =====================================
@@ -654,9 +801,18 @@ def Loc():
     
 @app.route('/coord', methods=['POST','GET'])
 
-def Coord(): 
-    return render_template('Category.html')    
+def CCoord(): 
+    return render_template('Chd_Category.html')    
+    
+@app.route('/coordP', methods=['POST','GET'])
 
+def PCoord(): 
+    return render_template('Pune_Category.html')
+
+@app.route('/coordB', methods=['POST','GET'])
+
+def BCoord(): 
+    return render_template('Bang_Category.html')    
 # api json 
 @app.route('/sum', methods=['GET','POST'])
 def sum():

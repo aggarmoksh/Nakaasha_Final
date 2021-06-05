@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_32db2e779513405f991ecfebb64c7fdd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_32db2e779513405f991ecfebb64c7fdd" ></div>
+        
+</body>
+<script>    
+    
+            var map_32db2e779513405f991ecfebb64c7fdd = L.map(
+                "map_32db2e779513405f991ecfebb64c7fdd",
+                {
+                    center: [12.972442, 77.580643],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c123a237ee0b46c5a602f79b7958c507 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_32db2e779513405f991ecfebb64c7fdd);
+        
+    
+            var feature_group_761a2cee1f034ced8a5820704f5dbbda = L.featureGroup(
+                {}
+            ).addTo(map_32db2e779513405f991ecfebb64c7fdd);
+        
+    
+            var marker_f4ffcf0cd8a34076b577fc18fcfae247 = L.marker(
+                [13.00813, 77.548622],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_39e7669819ed4bb8838bbb186859dc65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_f4ffcf0cd8a34076b577fc18fcfae247.setIcon(icon_39e7669819ed4bb8838bbb186859dc65);
+        
+    
+        var popup_d0e01aaa6d2e498c9e0330e5b4fc5a7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e08989d371d74e84a3a69cedaf4beb96 = $(`<div id="html_e08989d371d74e84a3a69cedaf4beb96" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>ISKCON Temple<br> <b>More Info: </b><a href=/Catt1>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Temple height=142 width=290></div>`)[0];
+            popup_d0e01aaa6d2e498c9e0330e5b4fc5a7b.setContent(html_e08989d371d74e84a3a69cedaf4beb96);
+        
+
+        marker_f4ffcf0cd8a34076b577fc18fcfae247.bindPopup(popup_d0e01aaa6d2e498c9e0330e5b4fc5a7b)
+        ;
+
+        
+    
+    
+            var marker_10fe27884e544d0a949e8b66b9911642 = L.marker(
+                [12.97457, 77.59238],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_d299b171882f4e578d8b92f9bf88caca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_10fe27884e544d0a949e8b66b9911642.setIcon(icon_d299b171882f4e578d8b92f9bf88caca);
+        
+    
+        var popup_4eed46eb3e604b12877d277c8184ac24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff2a08189f284584959716e66887cd73 = $(`<div id="html_ff2a08189f284584959716e66887cd73" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Cubbon Park <br> <b>More Info: </b><a href=/Catt2>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Cubbon park height=142 width=290></div>`)[0];
+            popup_4eed46eb3e604b12877d277c8184ac24.setContent(html_ff2a08189f284584959716e66887cd73);
+        
+
+        marker_10fe27884e544d0a949e8b66b9911642.bindPopup(popup_4eed46eb3e604b12877d277c8184ac24)
+        ;
+
+        
+    
+    
+            var marker_357098ec10c84c2b95d15b1f192f6fdd = L.marker(
+                [12.834553, 77.40097],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_f7477ee8c62d489aa22ff42627d90c9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_357098ec10c84c2b95d15b1f192f6fdd.setIcon(icon_f7477ee8c62d489aa22ff42627d90c9a);
+        
+    
+        var popup_07fb17b44dac4f1f90ab8cf85e99f27a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_438d9a79fe7b495ba69e4068834657fe = $(`<div id="html_438d9a79fe7b495ba69e4068834657fe" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Wonderla Amusement Park<br> <b>More Info: </b><a href=/Catt3>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Wonderla height=142 width=290></div>`)[0];
+            popup_07fb17b44dac4f1f90ab8cf85e99f27a.setContent(html_438d9a79fe7b495ba69e4068834657fe);
+        
+
+        marker_357098ec10c84c2b95d15b1f192f6fdd.bindPopup(popup_07fb17b44dac4f1f90ab8cf85e99f27a)
+        ;
+
+        
+    
+    
+            var marker_5e276fca57f444de85356de9ec654141 = L.marker(
+                [12.825703, 77.511223],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_8ce0cb7150d54a769fd1f442c3231245 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_5e276fca57f444de85356de9ec654141.setIcon(icon_8ce0cb7150d54a769fd1f442c3231245);
+        
+    
+        var popup_4b1ac904b8614d538f24aac9d6dc9e32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2be00c0efafe48e4a275c7d43019c17f = $(`<div id="html_2be00c0efafe48e4a275c7d43019c17f" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>The Art of Living International Center<br> <b>More Info: </b><a href=/Catt4>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Art height=142 width=290></div>`)[0];
+            popup_4b1ac904b8614d538f24aac9d6dc9e32.setContent(html_2be00c0efafe48e4a275c7d43019c17f);
+        
+
+        marker_5e276fca57f444de85356de9ec654141.bindPopup(popup_4b1ac904b8614d538f24aac9d6dc9e32)
+        ;
+
+        
+    
+    
+            var marker_51319f77fa2c4dd6ad6161a595aed6a2 = L.marker(
+                [12.950711, 77.58451099999999],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_39b28939e9e246078c1270e771199513 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_51319f77fa2c4dd6ad6161a595aed6a2.setIcon(icon_39b28939e9e246078c1270e771199513);
+        
+    
+        var popup_eddd5c32ba5c487b8577b8b5eb2e1f7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f286c5b7f7004c6fa04d120a0bf0684d = $(`<div id="html_f286c5b7f7004c6fa04d120a0bf0684d" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Lalbagh Botanical Garden<br> <b>More Info: </b><a href=/Catt5>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Plants height=142 width=290></div>`)[0];
+            popup_eddd5c32ba5c487b8577b8b5eb2e1f7b.setContent(html_f286c5b7f7004c6fa04d120a0bf0684d);
+        
+
+        marker_51319f77fa2c4dd6ad6161a595aed6a2.bindPopup(popup_eddd5c32ba5c487b8577b8b5eb2e1f7b)
+        ;
+
+        
+    
+    
+            var marker_9c0b2ba708a54380980da62203252102 = L.marker(
+                [12.971708, 77.59603100000001],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_a41bbb750d51494e895f0046a456d0f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_9c0b2ba708a54380980da62203252102.setIcon(icon_a41bbb750d51494e895f0046a456d0f5);
+        
+    
+        var popup_703dbc8a91464aa9a6cabc1345ac1224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_accb1f51196441bc9504e348c1352f92 = $(`<div id="html_accb1f51196441bc9504e348c1352f92" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>UB City<br> <b>More Info: </b><a href=/Catt6>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?UB City height=142 width=290></div>`)[0];
+            popup_703dbc8a91464aa9a6cabc1345ac1224.setContent(html_accb1f51196441bc9504e348c1352f92);
+        
+
+        marker_9c0b2ba708a54380980da62203252102.bindPopup(popup_703dbc8a91464aa9a6cabc1345ac1224)
+        ;
+
+        
+    
+    
+            var marker_7439d41cdeb1480d8dc00bfa0f9098a9 = L.marker(
+                [12.975223, 77.59634],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_ed9cb60f11d7456ba71d0ab1104dbe11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_7439d41cdeb1480d8dc00bfa0f9098a9.setIcon(icon_ed9cb60f11d7456ba71d0ab1104dbe11);
+        
+    
+        var popup_ba14a19d417845b1a6eedc69aa073f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_306453f6d9784ef6b2c10233bc86c2d1 = $(`<div id="html_306453f6d9784ef6b2c10233bc86c2d1" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Visvesvaraya Industrial and Technological Museum<br> <b>More Info: </b><a href=/Catt7>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Techno Museum height=142 width=290></div>`)[0];
+            popup_ba14a19d417845b1a6eedc69aa073f0c.setContent(html_306453f6d9784ef6b2c10233bc86c2d1);
+        
+
+        marker_7439d41cdeb1480d8dc00bfa0f9098a9.bindPopup(popup_ba14a19d417845b1a6eedc69aa073f0c)
+        ;
+
+        
+    
+    
+            var marker_1eb15606ff244230a468639c0658e5f2 = L.marker(
+                [12.800833, 77.575554],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_60f95ffd93cb4d2faeb097c62d76f40c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_1eb15606ff244230a468639c0658e5f2.setIcon(icon_60f95ffd93cb4d2faeb097c62d76f40c);
+        
+    
+        var popup_3684e95337a94981be41af0f583f309c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40c187b3697044ebb0c0242336b8b80e = $(`<div id="html_40c187b3697044ebb0c0242336b8b80e" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Bannerghatta National Park<br> <b>More Info: </b><a href=/Catt8>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Zoo height=142 width=290></div>`)[0];
+            popup_3684e95337a94981be41af0f583f309c.setContent(html_40c187b3697044ebb0c0242336b8b80e);
+        
+
+        marker_1eb15606ff244230a468639c0658e5f2.bindPopup(popup_3684e95337a94981be41af0f583f309c)
+        ;
+
+        
+    
+    
+            var marker_3ce7c7670f804e46a4092fbc14d848f4 = L.marker(
+                [12.982308999999999, 77.608021],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_8cdf8271cafb45ff993334844a8a689f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_3ce7c7670f804e46a4092fbc14d848f4.setIcon(icon_8cdf8271cafb45ff993334844a8a689f);
+        
+    
+        var popup_5da0325ca94c435ca0add44ab276c703 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80ce082deba24d08a9a3fc76e93fe705 = $(`<div id="html_80ce082deba24d08a9a3fc76e93fe705" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Commercial Street<br> <b>More Info: </b><a href=/Catt9>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Bangalore height=142 width=290></div>`)[0];
+            popup_5da0325ca94c435ca0add44ab276c703.setContent(html_80ce082deba24d08a9a3fc76e93fe705);
+        
+
+        marker_3ce7c7670f804e46a4092fbc14d848f4.bindPopup(popup_5da0325ca94c435ca0add44ab276c703)
+        ;
+
+        
+    
+    
+            var marker_0c55f38bce9e4e7c95c5a077ecf2e205 = L.marker(
+                [12.956113, 77.56750500000001],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_b342f8f02d22405cad91f1ebe890de07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_0c55f38bce9e4e7c95c5a077ecf2e205.setIcon(icon_b342f8f02d22405cad91f1ebe890de07);
+        
+    
+        var popup_126dad3d08fb4d37af20695bb2c9afc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e9b943b6e12409aa1a8103d29e1b0c6 = $(`<div id="html_7e9b943b6e12409aa1a8103d29e1b0c6" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Bull Temple<br> <b>More Info: </b><a href=/Catt10>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Bull Temple height=142 width=290></div>`)[0];
+            popup_126dad3d08fb4d37af20695bb2c9afc5.setContent(html_7e9b943b6e12409aa1a8103d29e1b0c6);
+        
+
+        marker_0c55f38bce9e4e7c95c5a077ecf2e205.bindPopup(popup_126dad3d08fb4d37af20695bb2c9afc5)
+        ;
+
+        
+    
+    
+            var marker_d5679c8246224567ad8e66a37f99efb8 = L.marker(
+                [12.99685, 77.696411],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_3e3afe675a624e9eb892f357eb618e2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_d5679c8246224567ad8e66a37f99efb8.setIcon(icon_3e3afe675a624e9eb892f357eb618e2f);
+        
+    
+        var popup_b626d3e330314f009df5042b83cadb81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57e0e73a6dd9439998d1b8a6b0158d58 = $(`<div id="html_57e0e73a6dd9439998d1b8a6b0158d58" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Phoenix Marketcity<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Marketcity height=142 width=290></div>`)[0];
+            popup_b626d3e330314f009df5042b83cadb81.setContent(html_57e0e73a6dd9439998d1b8a6b0158d58);
+        
+
+        marker_d5679c8246224567ad8e66a37f99efb8.bindPopup(popup_b626d3e330314f009df5042b83cadb81)
+        ;
+
+        
+    
+    
+            var marker_c976822f7dee4a318867c08dfa693580 = L.marker(
+                [12.942807, 77.56836700000001],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_86fbded0539044e68bd0519613a02d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_c976822f7dee4a318867c08dfa693580.setIcon(icon_86fbded0539044e68bd0519613a02d0d);
+        
+    
+        var popup_cfe29f3fb09f4c24b9ad537b89a04295 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a71fd2d5fe0f45f98d91806ff96eaefe = $(`<div id="html_a71fd2d5fe0f45f98d91806ff96eaefe" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Dooda Ganapathi Temple<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Ganehsa Temple height=142 width=290></div>`)[0];
+            popup_cfe29f3fb09f4c24b9ad537b89a04295.setContent(html_a71fd2d5fe0f45f98d91806ff96eaefe);
+        
+
+        marker_c976822f7dee4a318867c08dfa693580.bindPopup(popup_cfe29f3fb09f4c24b9ad537b89a04295)
+        ;
+
+        
+    
+    
+            var marker_382c41d638a74720a9cf1666b28d1e75 = L.marker(
+                [12.979489, 77.590889],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_983de908bbb6400da7da0473a05bee50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_382c41d638a74720a9cf1666b28d1e75.setIcon(icon_983de908bbb6400da7da0473a05bee50);
+        
+    
+        var popup_2afb51d3f0164b089c3a038ee2caec70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_491c96a750a046b9a90751b026fe8022 = $(`<div id="html_491c96a750a046b9a90751b026fe8022" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Vidhana Soudha <br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Vidhana Soudha height=142 width=290></div>`)[0];
+            popup_2afb51d3f0164b089c3a038ee2caec70.setContent(html_491c96a750a046b9a90751b026fe8022);
+        
+
+        marker_382c41d638a74720a9cf1666b28d1e75.bindPopup(popup_2afb51d3f0164b089c3a038ee2caec70)
+        ;
+
+        
+    
+    
+            var marker_df02134d28f44a44a91343a0d907f059 = L.marker(
+                [12.955034, 77.681236],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_c9c209e9fcc64758b739076577152ecd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_df02134d28f44a44a91343a0d907f059.setIcon(icon_c9c209e9fcc64758b739076577152ecd);
+        
+    
+        var popup_fb7cdb04390c445790a7ba0deacc7b8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_481358d9bf06426ca9a162515734edd8 = $(`<div id="html_481358d9bf06426ca9a162515734edd8" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Heritage Centre and Aerospace Museum<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Aerospace Centre height=142 width=290></div>`)[0];
+            popup_fb7cdb04390c445790a7ba0deacc7b8e.setContent(html_481358d9bf06426ca9a162515734edd8);
+        
+
+        marker_df02134d28f44a44a91343a0d907f059.bindPopup(popup_fb7cdb04390c445790a7ba0deacc7b8e)
+        ;
+
+        
+    
+    
+            var marker_1c2cf87394ba47748a1a56244589f43e = L.marker(
+                [12.998669999999999, 77.592072],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_57485a09fa654c42b43a2e92a80c1d57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_1c2cf87394ba47748a1a56244589f43e.setIcon(icon_57485a09fa654c42b43a2e92a80c1d57);
+        
+    
+        var popup_8d53b82bd8e54e759b9ef4dea8b71d5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb19d4cf95454b15b72c82ef5deaa217 = $(`<div id="html_cb19d4cf95454b15b72c82ef5deaa217" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Bangalore Palace<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Bangalore Palace height=142 width=290></div>`)[0];
+            popup_8d53b82bd8e54e759b9ef4dea8b71d5c.setContent(html_cb19d4cf95454b15b72c82ef5deaa217);
+        
+
+        marker_1c2cf87394ba47748a1a56244589f43e.bindPopup(popup_8d53b82bd8e54e759b9ef4dea8b71d5c)
+        ;
+
+        
+    
+    
+            var marker_b36dbd098458472d8825af3535799d51 = L.marker(
+                [12.914606, 77.528992],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_359291d6716f42b58e439a308af17934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_b36dbd098458472d8825af3535799d51.setIcon(icon_359291d6716f42b58e439a308af17934);
+        
+    
+        var popup_439b728c2b9543d7a8e0d37e41e515c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70217ed52184ca4aa414d7616f87181 = $(`<div id="html_f70217ed52184ca4aa414d7616f87181" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Shrungagiri Shri Shanmukha Temple<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/? Temple height=142 width=290></div>`)[0];
+            popup_439b728c2b9543d7a8e0d37e41e515c3.setContent(html_f70217ed52184ca4aa414d7616f87181);
+        
+
+        marker_b36dbd098458472d8825af3535799d51.bindPopup(popup_439b728c2b9543d7a8e0d37e41e515c3)
+        ;
+
+        
+    
+    
+            var marker_90a33a9a883a43e4bc935517209f695a = L.marker(
+                [12.958356, 77.65655500000001],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_d21c7eb0af0e4c77a0746388f4922740 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_90a33a9a883a43e4bc935517209f695a.setIcon(icon_d21c7eb0af0e4c77a0746388f4922740);
+        
+    
+        var popup_1ec45fb81dbb416ca53bcb8027fec95f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc6094770f574fa0be301a544640462c = $(`<div id="html_bc6094770f574fa0be301a544640462c" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Shivoham shiva temple<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Shiva Temple height=142 width=290></div>`)[0];
+            popup_1ec45fb81dbb416ca53bcb8027fec95f.setContent(html_bc6094770f574fa0be301a544640462c);
+        
+
+        marker_90a33a9a883a43e4bc935517209f695a.bindPopup(popup_1ec45fb81dbb416ca53bcb8027fec95f)
+        ;
+
+        
+    
+    
+            var marker_9984792c189945c0bfc9570caa203254 = L.marker(
+                [12.77793, 77.415024],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_a16a556193144ffaa4110aa444db706a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_9984792c189945c0bfc9570caa203254.setIcon(icon_a16a556193144ffaa4110aa444db706a);
+        
+    
+        var popup_309a94dfe56f48228e1baacdc6433793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a77d5f806d7443d683f947f9363054d9 = $(`<div id="html_a77d5f806d7443d683f947f9363054d9" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Innovative Film City<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Film City height=142 width=290></div>`)[0];
+            popup_309a94dfe56f48228e1baacdc6433793.setContent(html_a77d5f806d7443d683f947f9363054d9);
+        
+
+        marker_9984792c189945c0bfc9570caa203254.bindPopup(popup_309a94dfe56f48228e1baacdc6433793)
+        ;
+
+        
+    
+    
+            var marker_e3dfce8461c7440ba7980794ebe293b0 = L.marker(
+                [12.95934, 77.57361999999999],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_8b77e3bfb92b47afb828c3efeea219bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_e3dfce8461c7440ba7980794ebe293b0.setIcon(icon_8b77e3bfb92b47afb828c3efeea219bb);
+        
+    
+        var popup_49af19e6e65741d5bec08b0d68097171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e41874d186e842efaea7cfd64ec01821 = $(`<div id="html_e41874d186e842efaea7cfd64ec01821" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Tipu Sultan's Summer Palace<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Tipu Sultan height=142 width=290></div>`)[0];
+            popup_49af19e6e65741d5bec08b0d68097171.setContent(html_e41874d186e842efaea7cfd64ec01821);
+        
+
+        marker_e3dfce8461c7440ba7980794ebe293b0.bindPopup(popup_49af19e6e65741d5bec08b0d68097171)
+        ;
+
+        
+    
+    
+            var marker_33e0e3bae64b4d6ca5c9321295581b6a = L.marker(
+                [12.891632000000001, 77.583733],
+                {}
+            ).addTo(feature_group_761a2cee1f034ced8a5820704f5dbbda);
+        
+    
+            var icon_2642717dbe3147bca406f0bd10600ea9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_33e0e3bae64b4d6ca5c9321295581b6a.setIcon(icon_2642717dbe3147bca406f0bd10600ea9);
+        
+    
+        var popup_8eb8377dce9449469a787e881880f772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aba80cffe4544ffa2c4675559ffda53 = $(`<div id="html_9aba80cffe4544ffa2c4675559ffda53" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Indian Music Experience Museum<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Music Museum height=142 width=290></div>`)[0];
+            popup_8eb8377dce9449469a787e881880f772.setContent(html_9aba80cffe4544ffa2c4675559ffda53);
+        
+
+        marker_33e0e3bae64b4d6ca5c9321295581b6a.bindPopup(popup_8eb8377dce9449469a787e881880f772)
+        ;
+
+        
+    
+</script>

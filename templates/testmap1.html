@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5950250a34ac4742a90004467e6f96e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5950250a34ac4742a90004467e6f96e2" ></div>
+        
+</body>
+<script>    
+    
+            var map_5950250a34ac4742a90004467e6f96e2 = L.map(
+                "map_5950250a34ac4742a90004467e6f96e2",
+                {
+                    center: [30.7333, 76.7794],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_178b66fcbaec4a519e039e3876c93aa2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5950250a34ac4742a90004467e6f96e2);
+        
+    
+            var feature_group_df8a51533d3040ee8d97d6f6084d24cc = L.featureGroup(
+                {}
+            ).addTo(map_5950250a34ac4742a90004467e6f96e2);
+        
+    
+            var marker_4f808a86b6454b5583b6a380c03f308d = L.marker(
+                [30.7421, 76.8188],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_4e3f61d925f54f28b37b5475b9504756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f808a86b6454b5583b6a380c03f308d.setIcon(icon_4e3f61d925f54f28b37b5475b9504756);
+        
+    
+        var popup_6960e7b2063e4cc5843081b23e543446 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d8c1dc57f034dda93b983114171743d = $(`<div id="html_2d8c1dc57f034dda93b983114171743d" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Sukhna Lake<br> <b>More Info: </b><a href=/Catt1>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Sukhna height=142 width=290></div>`)[0];
+            popup_6960e7b2063e4cc5843081b23e543446.setContent(html_2d8c1dc57f034dda93b983114171743d);
+        
+
+        marker_4f808a86b6454b5583b6a380c03f308d.bindPopup(popup_6960e7b2063e4cc5843081b23e543446)
+        ;
+
+        
+    
+    
+            var marker_c417b5c0be1048d5a996cd3393eafedb = L.marker(
+                [30.7525, 76.8101],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_a14fa772603e494bb7c835d1c3b221a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c417b5c0be1048d5a996cd3393eafedb.setIcon(icon_a14fa772603e494bb7c835d1c3b221a6);
+        
+    
+        var popup_c2ee34dc10534bcdb03ca6a29c46fc14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_585bbe1ffc8e40f9ac8d6f41876f0c1e = $(`<div id="html_585bbe1ffc8e40f9ac8d6f41876f0c1e" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Rock Garden<br> <b>More Info: </b><a href=/Catt2>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/0/0c/ROCK_GARDEN_2.jpg height=142 width=290></div>`)[0];
+            popup_c2ee34dc10534bcdb03ca6a29c46fc14.setContent(html_585bbe1ffc8e40f9ac8d6f41876f0c1e);
+        
+
+        marker_c417b5c0be1048d5a996cd3393eafedb.bindPopup(popup_c2ee34dc10534bcdb03ca6a29c46fc14)
+        ;
+
+        
+    
+    
+            var marker_0b21e1b501fc46ac8cea4809269b6939 = L.marker(
+                [30.7566, 76.8024],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_3e3ebdda9df544b3a4a9dda30d3123a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b21e1b501fc46ac8cea4809269b6939.setIcon(icon_3e3ebdda9df544b3a4a9dda30d3123a6);
+        
+    
+        var popup_ad95d1b9d9db4a4d8e8e9a7fa170db9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9920f64c8800457f8e3f77540f357c63 = $(`<div id="html_9920f64c8800457f8e3f77540f357c63" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Chandigarh Capitol Complex<br> <b>More Info: </b><a href=/Catt3>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/f/fd/Open_hand_monument_of_Chandigarh.jpg height=142 width=290></div>`)[0];
+            popup_ad95d1b9d9db4a4d8e8e9a7fa170db9f.setContent(html_9920f64c8800457f8e3f77540f357c63);
+        
+
+        marker_0b21e1b501fc46ac8cea4809269b6939.bindPopup(popup_ad95d1b9d9db4a4d8e8e9a7fa170db9f)
+        ;
+
+        
+    
+    
+            var marker_baf3599061fa4e3582c4b9f9add4f5c5 = L.marker(
+                [30.7474, 76.7829],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_0ec91c0f45e04636865ce391304258f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_baf3599061fa4e3582c4b9f9add4f5c5.setIcon(icon_0ec91c0f45e04636865ce391304258f7);
+        
+    
+        var popup_c03ff25102c941d5ac60fcc05343be68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67ece5b03d7f4ca684a4c4652768da9c = $(`<div id="html_67ece5b03d7f4ca684a4c4652768da9c" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Zakir Hussain Rose Garden<br> <b>More Info: </b><a href=/Catt4>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/b/b8/Roses_at_Ishida_Rose_Garden.jpg height=142 width=290></div>`)[0];
+            popup_c03ff25102c941d5ac60fcc05343be68.setContent(html_67ece5b03d7f4ca684a4c4652768da9c);
+        
+
+        marker_baf3599061fa4e3582c4b9f9add4f5c5.bindPopup(popup_c03ff25102c941d5ac60fcc05343be68)
+        ;
+
+        
+    
+    
+            var marker_1c97ab8659da40c982d54ac986081f22 = L.marker(
+                [30.738449, 76.829941],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_49fb2a865cc043f6bbb978b8ca1b1d3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c97ab8659da40c982d54ac986081f22.setIcon(icon_49fb2a865cc043f6bbb978b8ca1b1d3a);
+        
+    
+        var popup_ed9963e6223d4ef6a9a74daa47d2e808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e76537f6cf048408b1d81887c5ebade = $(`<div id="html_9e76537f6cf048408b1d81887c5ebade" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Garden of Silence<br> <b>More Info: </b><a href=/Catt5>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/5/5e/Garden_of_Silence%2C_Chandigarh.jpg height=142 width=290></div>`)[0];
+            popup_ed9963e6223d4ef6a9a74daa47d2e808.setContent(html_9e76537f6cf048408b1d81887c5ebade);
+        
+
+        marker_1c97ab8659da40c982d54ac986081f22.bindPopup(popup_ed9963e6223d4ef6a9a74daa47d2e808)
+        ;
+
+        
+    
+    
+            var marker_39f94f4d5a444174a3d55fed4fe83b6b = L.marker(
+                [30.7489, 76.7875],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_5b4f8024ba804d6997108e8557d512c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39f94f4d5a444174a3d55fed4fe83b6b.setIcon(icon_5b4f8024ba804d6997108e8557d512c4);
+        
+    
+        var popup_07190f34bd384af4aff6452a8b45e366 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eebd42fbc1a47febbffbb8c3d8732c2 = $(`<div id="html_5eebd42fbc1a47febbffbb8c3d8732c2" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Government Museum and Art gallery<br> <b>More Info: </b><a href=/Catt6>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/5/5a/PM%2C_Frech_President_at_the_Government_Art_Gallery_and_Museum_%2824716488121%29.jpg height=142 width=290></div>`)[0];
+            popup_07190f34bd384af4aff6452a8b45e366.setContent(html_5eebd42fbc1a47febbffbb8c3d8732c2);
+        
+
+        marker_39f94f4d5a444174a3d55fed4fe83b6b.bindPopup(popup_07190f34bd384af4aff6452a8b45e366)
+        ;
+
+        
+    
+    
+            var marker_3ec5bccaad984bd8a46b8368daeb2f41 = L.marker(
+                [30.705608, 76.801132],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_1a4646df278b474eb492930677413f1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ec5bccaad984bd8a46b8368daeb2f41.setIcon(icon_1a4646df278b474eb492930677413f1a);
+        
+    
+        var popup_06060924ca8d483ea8f06b838425eb8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f2887cbb07427d83c7d48345762ed7 = $(`<div id="html_86f2887cbb07427d83c7d48345762ed7" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Elante Mall<br> <b>More Info: </b><a href=/Catt7>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/3/36/Elante_Mall%2C_Chandigarh.jpg height=142 width=290></div>`)[0];
+            popup_06060924ca8d483ea8f06b838425eb8e.setContent(html_86f2887cbb07427d83c7d48345762ed7);
+        
+
+        marker_3ec5bccaad984bd8a46b8368daeb2f41.bindPopup(popup_06060924ca8d483ea8f06b838425eb8e)
+        ;
+
+        
+    
+    
+            var marker_e720e52c00004319b61c23694859caff = L.marker(
+                [30.702548999999998, 76.78179200000001],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_09dc707d369044b8afb4383c6c885d9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e720e52c00004319b61c23694859caff.setIcon(icon_09dc707d369044b8afb4383c6c885d9a);
+        
+    
+        var popup_b84dfafdaab747fa93b2103a455e37d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ecd6f791cf4e5bb286ee590a1c5db8 = $(`<div id="html_72ecd6f791cf4e5bb286ee590a1c5db8" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Japnese Garden<br> <b>More Info: </b><a href=/Catt8>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/b/b2/Japanese_style_building_in_chandigarh_Japanese_Garden.jpg height=142 width=290></div>`)[0];
+            popup_b84dfafdaab747fa93b2103a455e37d5.setContent(html_72ecd6f791cf4e5bb286ee590a1c5db8);
+        
+
+        marker_e720e52c00004319b61c23694859caff.bindPopup(popup_b84dfafdaab747fa93b2103a455e37d5)
+        ;
+
+        
+    
+    
+            var marker_cb49ffe667584dcf80b8cca9943b67a2 = L.marker(
+                [30.7588, 76.76725],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_15f700178411463f9f5dd1288a4684f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb49ffe667584dcf80b8cca9943b67a2.setIcon(icon_15f700178411463f9f5dd1288a4684f6);
+        
+    
+        var popup_60b6ac1ff2114da6819c9646400ffd93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdbfb9f4d5d74880939360dee6869af3 = $(`<div id="html_fdbfb9f4d5d74880939360dee6869af3" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Panjab University<br> <b>More Info: </b><a href=/Catt9>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/f/fc/StuC_PU.jpg height=142 width=290></div>`)[0];
+            popup_60b6ac1ff2114da6819c9646400ffd93.setContent(html_fdbfb9f4d5d74880939360dee6869af3);
+        
+
+        marker_cb49ffe667584dcf80b8cca9943b67a2.bindPopup(popup_60b6ac1ff2114da6819c9646400ffd93)
+        ;
+
+        
+    
+    
+            var marker_d7ac2732bf3f492bb0064ec6439562ce = L.marker(
+                [30.732321000000002, 76.806709],
+                {}
+            ).addTo(feature_group_df8a51533d3040ee8d97d6f6084d24cc);
+        
+    
+            var icon_6ea66cdb1b2e465aa0f56fda0c592753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7ac2732bf3f492bb0064ec6439562ce.setIcon(icon_6ea66cdb1b2e465aa0f56fda0c592753);
+        
+    
+        var popup_266ff70e37ba43828d49852a4111259c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a727f4d9097431eb3c3447a19ec60e0 = $(`<div id="html_8a727f4d9097431eb3c3447a19ec60e0" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Nepli Forest Reserve<br> <b>More Info: </b><a href=/Catt10>click here</a><br> <img src=https://i1.wp.com/cdn.whatsuplife.in/chandigarh/blog/2019/02/Nepli-reserve.jpg height=142 width=290></div>`)[0];
+            popup_266ff70e37ba43828d49852a4111259c.setContent(html_8a727f4d9097431eb3c3447a19ec60e0);
+        
+
+        marker_d7ac2732bf3f492bb0064ec6439562ce.bindPopup(popup_266ff70e37ba43828d49852a4111259c)
+        ;
+
+        
+    
+</script>
