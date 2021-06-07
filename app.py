@@ -511,6 +511,12 @@ def Pmattr1():
 def Bmattr1():    
     return render_template('testmap3.html')    
 
+# =====================================
+#  Mumbai Attractions Maps
+# =====================================
+@app.route('/Mmatt1', methods=['POST','GET'])
+def Mmattr1():    
+    return render_template('testmap4.html') 
 
 # =====================================
 #  Chandigarh Attractions Info
@@ -555,7 +561,66 @@ def Cattr9():
 def Cattr10():    
     return render_template('Chandigarh Attractions/Nepli Forest Reserve.html')    
 
+# =====================================
+#  Pune Attractions Info
+# =====================================
+@app.route('/Patt1', methods=['POST','GET'])
+def Pattr1():    
+    return render_template('Pune Attractions/Aga Khan Palace.html')
+    
+@app.route('/Patt2', methods=['POST','GET'])
+def Pattr2():    
+    return render_template('Pune Attractions/Amanora.html')
 
+@app.route('/Patt3', methods=['POST','GET'])
+def Pattr3():    
+    return render_template('Pune Attractions/DSHGT.html')
+
+@app.route('/Patt4', methods=['POST','GET'])
+def Pattr4():    
+    return render_template('Pune Attractions/ISCKON Temple.html')
+
+@app.route('/Patt5', methods=['POST','GET'])
+def Pattr5():    
+    return render_template('Pune Attractions/Lal Mhal.html')
+
+@app.route('/Patt6', methods=['POST','GET'])
+def Pattr6():    
+    return render_template('Pune Attractions/National War Museum.html')
+
+@app.route('/Patt7', methods=['POST','GET'])
+def Pattr7():    
+    return render_template('Pune Attractions/Parvati Hill.html')
+
+@app.route('/Patt8', methods=['POST','GET'])
+def Pattr8():    
+    return render_template('Pune Attractions/Pataleshwar Caves.html')
+
+@app.route('/Patt9', methods=['POST','GET'])
+def Pattr9():    
+    return render_template('Pune Attractions/Phoenix Marketcity.html')
+
+@app.route('/Patt10', methods=['POST','GET'])
+def Pattr10():    
+    return render_template('Pune Attractions/Ragiv Gandhi Zoological Park.html') 
+
+@app.route('/Patt11', methods=['POST','GET'])
+def Pattr11():    
+    return render_template('Pune Attractions/Raja Dinkar Kelkar Museum.html')
+    
+@app.route('/Patt12', methods=['POST','GET'])
+def Pattr12():    
+    return render_template('Pune Attractions/Shaniwar Wada.html')
+
+@app.route('/Patt13', methods=['POST','GET'])
+def Pattr13():    
+    return render_template('Pune Attractions/Sinhagad Fort.html')
+
+@app.route('/Patt14', methods=['POST','GET'])
+def Pattr14():    
+    return render_template('Pune Attractions/Tamhini Ghat.html')
+    
+    
 # =====================================
 #  Bangalore Attractions Info
 # =====================================
@@ -605,7 +670,7 @@ def Battr11():
     
 @app.route('/Batt12', methods=['POST','GET'])
 def Battr12():    
-    return render_template('Bangalore Attractions/Lalbaugh Botanical garden.html')
+    return render_template('Bangalore Attractions/Lalbaugh Botanical Garden.html')
 
 @app.route('/Batt13', methods=['POST','GET'])
 def Battr13():    
@@ -637,7 +702,91 @@ def Battr19():
 
 @app.route('/Batt20', methods=['POST','GET'])
 def Battr20():    
-    return render_template('Bangalore Attractions/Wonderla.html')     
+    return render_template('Bangalore Attractions/Wonderla.html') 
+
+# =====================================
+#  Mumbai Attractions Info
+# =====================================
+@app.route('/Matt1', methods=['POST','GET'])
+def Mattr1():    
+    return render_template('Mumbai Attractions/Bandra_Sealink.html')
+    
+@app.route('/Matt2', methods=['POST','GET'])
+def Mattr2():    
+    return render_template('Mumbai Attractions/Chatrapati Shivaji Terminus.html')
+
+@app.route('/Matt3', methods=['POST','GET'])
+def Mattr3():    
+    return render_template('Mumbai Attractions/Chatrapati Vastu Sangrahalaya.html')
+
+@app.route('/Matt4', methods=['POST','GET'])
+def Mattr4():    
+    return render_template('Mumbai Attractions/Colaba.html')
+
+@app.route('/Matt5', methods=['POST','GET'])
+def Mattr5():    
+    return render_template('Mumbai Attractions/Elephanta Cves.html')
+
+@app.route('/Matt6', methods=['POST','GET'])
+def Mattr6():    
+    return render_template('Mumbai Attractions/Essel World.html')
+
+@app.route('/Matt7', methods=['POST','GET'])
+def Mattr7():    
+    return render_template('Mumbai Attractions/Gateway Of india.html')
+
+@app.route('/Matt8', methods=['POST','GET'])
+def Mattr8():    
+    return render_template('Mumbai Attractions/Global Vipassana Pagoda.html')
+
+@app.route('/Matt9', methods=['POST','GET'])
+def Mattr9():    
+    return render_template('Mumbai Attractions/Juhu.html')
+
+@app.route('/Matt10', methods=['POST','GET'])
+def Mattr10():    
+    return render_template('Mumbai Attractions/Kanheri Caves.html') 
+
+@app.route('/Matt11', methods=['POST','GET'])
+def Mattr11():    
+    return render_template('Mumbai Attractions/Mani Bhavan Gandhi Museum.html')
+    
+@app.route('/Matt12', methods=['POST','GET'])
+def Mattr12():    
+    return render_template('Mumbai Attractions/Marine Drive.html')
+
+@app.route('/Matt13', methods=['POST','GET'])
+def Mattr13():    
+    return render_template('Mumbai Attractions/Mary Church.html')
+
+@app.route('/Matt14', methods=['POST','GET'])
+def Mattr14():    
+    return render_template('Mumbai Attractions/Nariman Point.html')
+
+@app.route('/Matt15', methods=['POST','GET'])
+def Mattr15():    
+    return render_template('Mumbai Attractions/Red carpet Wax Museum.html')
+
+@app.route('/Matt16', methods=['POST','GET'])
+def Mattr16():    
+    return render_template('Mumbai Attractions/Sidhivinayak.html')
+
+@app.route('/Matt17', methods=['POST','GET'])
+def Mattr17():    
+    return render_template('Mumbai Attractions/Snow Kingdom.html')
+
+@app.route('/Matt18', methods=['POST','GET'])
+def Mattr18():    
+    return render_template('Mumbai Attractions/Viviana Mall.html')
+
+@app.route('/Matt19', methods=['POST','GET'])
+def Mattr19():    
+    return render_template('Mumbai Attractions/Wankhede.html')
+
+@app.route('/Matt20', methods=['POST','GET'])
+def Mattr20():    
+    return render_template('Mumbai Attractions/Water Kingdom.html') 
+    
 # =====================================
 #  Mumbai Data
 # =====================================
@@ -671,7 +820,7 @@ def MumbaiMap5():
 
 @app.route('/MMap6', methods=['POST','GET'])
 def MumbaiMap6():    
-    return render_template('Mumbai_Maps/Chhatrapati Shivaji Terminus.html')
+    return render_template('Mumbai_Maps/Chatrapati Shivaji Terminus.html')
 
 @app.route('/MMap7', methods=['POST','GET'])
 def MumbaiMap7():    
@@ -793,13 +942,23 @@ def About():
  
     
     return render_template('about.html')
+ 
+@app.route('/collab', methods=['POST','GET'])
+
+def Collab(): 
+    return render_template('Collaborators.html')
     
 @app.route('/locator', methods=['POST','GET'])
 
 def Loc(): 
     return render_template('locator.html')
-    
+
 @app.route('/coord', methods=['POST','GET'])
+
+def Coord(): 
+    return render_template('Services.html')     
+    
+@app.route('/coordC', methods=['POST','GET'])
 
 def CCoord(): 
     return render_template('Chd_Category.html')    
@@ -812,7 +971,12 @@ def PCoord():
 @app.route('/coordB', methods=['POST','GET'])
 
 def BCoord(): 
-    return render_template('Bang_Category.html')    
+    return render_template('Bang_Category.html')
+
+@app.route('/coordM', methods=['POST','GET'])
+def MCoord(): 
+    return render_template('Mum_Category.html') 
+    
 # api json 
 @app.route('/sum', methods=['GET','POST'])
 def sum():

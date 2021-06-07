@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5ce2fcb992ec4ccab0e856de020bfacc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5ce2fcb992ec4ccab0e856de020bfacc" ></div>
+        
+</body>
+<script>    
+    
+            var map_5ce2fcb992ec4ccab0e856de020bfacc = L.map(
+                "map_5ce2fcb992ec4ccab0e856de020bfacc",
+                {
+                    center: [19.0759837, 72.8776559],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef66cd80a1324854a4370db37cc1375c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5ce2fcb992ec4ccab0e856de020bfacc);
+        
+    
+            var feature_group_30f586f3873c4f21a6bf7fc2931e412b = L.featureGroup(
+                {}
+            ).addTo(map_5ce2fcb992ec4ccab0e856de020bfacc);
+        
+    
+            var marker_fc94a684792a4f9f81f902f52188d156 = L.marker(
+                [18.94666, 72.82455999999999],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_8bc0ad77145a40dba191247e0acdd88a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_fc94a684792a4f9f81f902f52188d156.setIcon(icon_8bc0ad77145a40dba191247e0acdd88a);
+        
+    
+        var popup_c18755cecf4643a3bfd6c894a431d0dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eccf54dcc0584a1e9a37e6a868720d46 = $(`<div id="html_eccf54dcc0584a1e9a37e6a868720d46" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Marine Drive<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Marine Drive height=142 width=290></div>`)[0];
+            popup_c18755cecf4643a3bfd6c894a431d0dd.setContent(html_eccf54dcc0584a1e9a37e6a868720d46);
+        
+
+        marker_fc94a684792a4f9f81f902f52188d156.bindPopup(popup_c18755cecf4643a3bfd6c894a431d0dd)
+        ;
+
+        
+    
+    
+            var marker_17ca04cfa370488faeb4c2fcf8439bec = L.marker(
+                [19.028489999999998, 72.815315],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_c3663d247bc54fefa9230b50f5929c3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_17ca04cfa370488faeb4c2fcf8439bec.setIcon(icon_c3663d247bc54fefa9230b50f5929c3c);
+        
+    
+        var popup_f868b44a46c04bb6b9222d57cff11b2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d75e75e275e04cbeb73fe3fb781e9e82 = $(`<div id="html_d75e75e275e04cbeb73fe3fb781e9e82" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Bandra-Worli Sea link<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Sea link height=142 width=290></div>`)[0];
+            popup_f868b44a46c04bb6b9222d57cff11b2c.setContent(html_d75e75e275e04cbeb73fe3fb781e9e82);
+        
+
+        marker_17ca04cfa370488faeb4c2fcf8439bec.bindPopup(popup_f868b44a46c04bb6b9222d57cff11b2c)
+        ;
+
+        
+    
+    
+            var marker_c179983a8b3244c78b458b1d1d431de5 = L.marker(
+                [18.92197, 72.83456],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_5767eb66dbbb4631a1318843cd2e9530 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_c179983a8b3244c78b458b1d1d431de5.setIcon(icon_5767eb66dbbb4631a1318843cd2e9530);
+        
+    
+        var popup_17e5dad17f12456ba29463e6d96603d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2625ecb486c4097b591d837d348a8a5 = $(`<div id="html_a2625ecb486c4097b591d837d348a8a5" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Gateway of India<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Indiagate height=142 width=290></div>`)[0];
+            popup_17e5dad17f12456ba29463e6d96603d6.setContent(html_a2625ecb486c4097b591d837d348a8a5);
+        
+
+        marker_c179983a8b3244c78b458b1d1d431de5.bindPopup(popup_17e5dad17f12456ba29463e6d96603d6)
+        ;
+
+        
+    
+    
+            var marker_2c515e7de9cf4881b0fcd680751923ef = L.marker(
+                [19.20799, 72.90491999999999],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_9f2ecd81ae0c460f85a9baafd51c086f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_2c515e7de9cf4881b0fcd680751923ef.setIcon(icon_9f2ecd81ae0c460f85a9baafd51c086f);
+        
+    
+        var popup_73b5cf6477904e5aa4b9eedacebd1d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a89b819c7d1409e859eb02de1ea3e2b = $(`<div id="html_2a89b819c7d1409e859eb02de1ea3e2b" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Kanheri Caves<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Caves height=142 width=290></div>`)[0];
+            popup_73b5cf6477904e5aa4b9eedacebd1d89.setContent(html_2a89b819c7d1409e859eb02de1ea3e2b);
+        
+
+        marker_2c515e7de9cf4881b0fcd680751923ef.bindPopup(popup_73b5cf6477904e5aa4b9eedacebd1d89)
+        ;
+
+        
+    
+    
+            var marker_9097ac5f5f6f4caf9956fd453b52c05a = L.marker(
+                [19.228142000000002, 72.805992],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_c1c5ce76ef72437b83349c93486541e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9097ac5f5f6f4caf9956fd453b52c05a.setIcon(icon_c1c5ce76ef72437b83349c93486541e8);
+        
+    
+        var popup_6c3e86610ecc43e6b5af6b5e16c4ee86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6b214730ae14885a3684f54aec45e3f = $(`<div id="html_a6b214730ae14885a3684f54aec45e3f" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Global  Vipassana Pagoda<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Peace height=142 width=290></div>`)[0];
+            popup_6c3e86610ecc43e6b5af6b5e16c4ee86.setContent(html_a6b214730ae14885a3684f54aec45e3f);
+        
+
+        marker_9097ac5f5f6f4caf9956fd453b52c05a.bindPopup(popup_6c3e86610ecc43e6b5af6b5e16c4ee86)
+        ;
+
+        
+    
+    
+            var marker_d60af995b3024bce81ad0d7b116ef1eb = L.marker(
+                [19.016899, 72.830383],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_b4f0c189470a4abfa317ff5039b4d645 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_d60af995b3024bce81ad0d7b116ef1eb.setIcon(icon_b4f0c189470a4abfa317ff5039b4d645);
+        
+    
+        var popup_a4343834173f4aad8c4cabbd67bf736a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c07e6a8fac314caaa49d3327ba5c64ac = $(`<div id="html_c07e6a8fac314caaa49d3327ba5c64ac" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Shree Sidhivinayak<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Ganesh height=142 width=290></div>`)[0];
+            popup_a4343834173f4aad8c4cabbd67bf736a.setContent(html_c07e6a8fac314caaa49d3327ba5c64ac);
+        
+
+        marker_d60af995b3024bce81ad0d7b116ef1eb.bindPopup(popup_a4343834173f4aad8c4cabbd67bf736a)
+        ;
+
+        
+    
+    
+            var marker_a2d03c4232564cfab664fc4047217ec1 = L.marker(
+                [19.06652, 72.86735],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_36eca3062cb14146b3ca041172fe1e19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a2d03c4232564cfab664fc4047217ec1.setIcon(icon_36eca3062cb14146b3ca041172fe1e19);
+        
+    
+        var popup_8261abb624254f43ad36325b1057705d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fe0415eab8d49c0ab63c1c1dae5d3c6 = $(`<div id="html_2fe0415eab8d49c0ab63c1c1dae5d3c6" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Nariman Point<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Nariman Point height=142 width=290></div>`)[0];
+            popup_8261abb624254f43ad36325b1057705d.setContent(html_2fe0415eab8d49c0ab63c1c1dae5d3c6);
+        
+
+        marker_a2d03c4232564cfab664fc4047217ec1.bindPopup(popup_8261abb624254f43ad36325b1057705d)
+        ;
+
+        
+    
+    
+            var marker_a215fd486b7946348a308d3257d38a13 = L.marker(
+                [18.963306, 72.931526],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_b42d14357616416aac5e2ffce233ec25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a215fd486b7946348a308d3257d38a13.setIcon(icon_b42d14357616416aac5e2ffce233ec25);
+        
+    
+        var popup_b9b03cf0b8a0466e90cf40f74610fca0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9f2b152d6b0437088030f59b3330ec0 = $(`<div id="html_b9f2b152d6b0437088030f59b3330ec0" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Elephanta Caves<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Elephanta Caves height=142 width=290></div>`)[0];
+            popup_b9b03cf0b8a0466e90cf40f74610fca0.setContent(html_b9f2b152d6b0437088030f59b3330ec0);
+        
+
+        marker_a215fd486b7946348a308d3257d38a13.bindPopup(popup_b9b03cf0b8a0466e90cf40f74610fca0)
+        ;
+
+        
+    
+    
+            var marker_6bf15eb0f868420e83f15b611b4be774 = L.marker(
+                [18.959892, 72.811523],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_14a66b5dde014e12af64ffd714258a19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_6bf15eb0f868420e83f15b611b4be774.setIcon(icon_14a66b5dde014e12af64ffd714258a19);
+        
+    
+        var popup_a038603aaa8643b1a5e33ce50cb4af6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55983b5f4c2d4b27b4ae9cdfe1a26823 = $(`<div id="html_55983b5f4c2d4b27b4ae9cdfe1a26823" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Mani Bhavan Gandhi Museum<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Gandhi Museum height=142 width=290></div>`)[0];
+            popup_a038603aaa8643b1a5e33ce50cb4af6e.setContent(html_55983b5f4c2d4b27b4ae9cdfe1a26823);
+        
+
+        marker_6bf15eb0f868420e83f15b611b4be774.bindPopup(popup_a038603aaa8643b1a5e33ce50cb4af6e)
+        ;
+
+        
+    
+    
+            var marker_76e78e3e953a4972b9c5dac4b00bc233 = L.marker(
+                [19.2312, 72.8062],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_acb14cffdd094ad58bb20fb31e748146 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_76e78e3e953a4972b9c5dac4b00bc233.setIcon(icon_acb14cffdd094ad58bb20fb31e748146);
+        
+    
+        var popup_7fbd9f75cc2e4d1ca66eaccfa8720c36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f30f170e1664c5da8a272014cf944b9 = $(`<div id="html_2f30f170e1664c5da8a272014cf944b9" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Essel World<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Mumbai Park height=142 width=290></div>`)[0];
+            popup_7fbd9f75cc2e4d1ca66eaccfa8720c36.setContent(html_2f30f170e1664c5da8a272014cf944b9);
+        
+
+        marker_76e78e3e953a4972b9c5dac4b00bc233.bindPopup(popup_7fbd9f75cc2e4d1ca66eaccfa8720c36)
+        ;
+
+        
+    
+    
+            var marker_e2d778a5269942c891180aba85c8b105 = L.marker(
+                [18.938931, 72.825851],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_4e0f0490d9594672a7acf48f6254dc94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_e2d778a5269942c891180aba85c8b105.setIcon(icon_4e0f0490d9594672a7acf48f6254dc94);
+        
+    
+        var popup_6c7d2152de2f4580a56a58926c76b67b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_691225e2befe41fa9a109c172639cd47 = $(`<div id="html_691225e2befe41fa9a109c172639cd47" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Wankhede Stadium<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Wankhede Stadium height=142 width=290></div>`)[0];
+            popup_6c7d2152de2f4580a56a58926c76b67b.setContent(html_691225e2befe41fa9a109c172639cd47);
+        
+
+        marker_e2d778a5269942c891180aba85c8b105.bindPopup(popup_6c7d2152de2f4580a56a58926c76b67b)
+        ;
+
+        
+    
+    
+            var marker_cdc9731db16946c7b474060e0ce9fcad = L.marker(
+                [18.913023000000003, 72.81920600000001],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_3239de331a64437da1b455df9d88d7fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_cdc9731db16946c7b474060e0ce9fcad.setIcon(icon_3239de331a64437da1b455df9d88d7fa);
+        
+    
+        var popup_d7d76bebaf0f4a2a838df1320b12578c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_649b96a5f2d348de83fb3a8b80300649 = $(`<div id="html_649b96a5f2d348de83fb3a8b80300649" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Colaba<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Colaba height=142 width=290></div>`)[0];
+            popup_d7d76bebaf0f4a2a838df1320b12578c.setContent(html_649b96a5f2d348de83fb3a8b80300649);
+        
+
+        marker_cdc9731db16946c7b474060e0ce9fcad.bindPopup(popup_d7d76bebaf0f4a2a838df1320b12578c)
+        ;
+
+        
+    
+    
+            var marker_8a500ddc905c4ad2b1c665bed159a985 = L.marker(
+                [18.9398, 72.835503],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_1b890840b1b4429d820fd315ab5dae9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_8a500ddc905c4ad2b1c665bed159a985.setIcon(icon_1b890840b1b4429d820fd315ab5dae9d);
+        
+    
+        var popup_0e7512bbb82a4d7d80d2e7b2e3c2c669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2459391ffda4efd964df271e2864cfd = $(`<div id="html_f2459391ffda4efd964df271e2864cfd" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Chatrapati Shivaji Terminus<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Shivaji Terminus height=142 width=290></div>`)[0];
+            popup_0e7512bbb82a4d7d80d2e7b2e3c2c669.setContent(html_f2459391ffda4efd964df271e2864cfd);
+        
+
+        marker_8a500ddc905c4ad2b1c665bed159a985.bindPopup(popup_0e7512bbb82a4d7d80d2e7b2e3c2c669)
+        ;
+
+        
+    
+    
+            var marker_8197af0f33e742d69e2bc8e600e246ee = L.marker(
+                [19.23186, 72.80674],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_3e42ebf6b68d4a2ea707c66003fbf5d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_8197af0f33e742d69e2bc8e600e246ee.setIcon(icon_3e42ebf6b68d4a2ea707c66003fbf5d3);
+        
+    
+        var popup_bdcd3cc288c6486e88684178dde1302b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a8487ea2b0f482987c19c6c25055711 = $(`<div id="html_6a8487ea2b0f482987c19c6c25055711" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Water Kingdom<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Water Kingdom height=142 width=290></div>`)[0];
+            popup_bdcd3cc288c6486e88684178dde1302b.setContent(html_6a8487ea2b0f482987c19c6c25055711);
+        
+
+        marker_8197af0f33e742d69e2bc8e600e246ee.bindPopup(popup_bdcd3cc288c6486e88684178dde1302b)
+        ;
+
+        
+    
+    
+            var marker_bf304bada02641c7933a0bb03737fb8f = L.marker(
+                [19.208551, 72.97183199999999],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_ec5b43a781d941da96f178b12be3de91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_bf304bada02641c7933a0bb03737fb8f.setIcon(icon_ec5b43a781d941da96f178b12be3de91);
+        
+    
+        var popup_377943fbbb1b4006b2deb2f0d10361d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7aca1a2279e41e781ce43577ded678d = $(`<div id="html_e7aca1a2279e41e781ce43577ded678d" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Viviana Mall<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Viviana Mall height=142 width=290></div>`)[0];
+            popup_377943fbbb1b4006b2deb2f0d10361d8.setContent(html_e7aca1a2279e41e781ce43577ded678d);
+        
+
+        marker_bf304bada02641c7933a0bb03737fb8f.bindPopup(popup_377943fbbb1b4006b2deb2f0d10361d8)
+        ;
+
+        
+    
+    
+            var marker_a9c8b5cef74b49df92e77eb0690ad52b = L.marker(
+                [19.10004, 72.91624499999999],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_a2fb5c12f9494c85956468b9298bd78f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a9c8b5cef74b49df92e77eb0690ad52b.setIcon(icon_a2fb5c12f9494c85956468b9298bd78f);
+        
+    
+        var popup_d36878fad06644a6a8ce049b4ad7ea20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3209685ce49d4f389b36551288a9d6b5 = $(`<div id="html_3209685ce49d4f389b36551288a9d6b5" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Red Carpet Wax Museum<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/? Wax Museum height=142 width=290></div>`)[0];
+            popup_d36878fad06644a6a8ce049b4ad7ea20.setContent(html_3209685ce49d4f389b36551288a9d6b5);
+        
+
+        marker_a9c8b5cef74b49df92e77eb0690ad52b.bindPopup(popup_d36878fad06644a6a8ce049b4ad7ea20)
+        ;
+
+        
+    
+    
+            var marker_5cc375a82c3841e6b9ac392c38f9a8e0 = L.marker(
+                [18.92688, 72.83265],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_48e7195f719d4526b803e65da9233771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5cc375a82c3841e6b9ac392c38f9a8e0.setIcon(icon_48e7195f719d4526b803e65da9233771);
+        
+    
+        var popup_fc586497d6bd45bfa48c600e408aa7d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6237e4c576594416aab372eeaec5751d = $(`<div id="html_6237e4c576594416aab372eeaec5751d" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Chatrapati Shivaji Vastu Sangrahalaya<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Shivaji Museum height=142 width=290></div>`)[0];
+            popup_fc586497d6bd45bfa48c600e408aa7d5.setContent(html_6237e4c576594416aab372eeaec5751d);
+        
+
+        marker_5cc375a82c3841e6b9ac392c38f9a8e0.bindPopup(popup_fc586497d6bd45bfa48c600e408aa7d5)
+        ;
+
+        
+    
+    
+            var marker_91d5a5a910b54311ba53f2c7d5409ee6 = L.marker(
+                [19.098801, 72.917061],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_c1f7443d9fbf4327bf7cfc503bfb04ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_91d5a5a910b54311ba53f2c7d5409ee6.setIcon(icon_c1f7443d9fbf4327bf7cfc503bfb04ee);
+        
+    
+        var popup_c2a462b41397454482637f356adfb83b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15dd6fc6bca640ef81390896d0406d5c = $(`<div id="html_15dd6fc6bca640ef81390896d0406d5c" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Snow Kingdom<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Snow Kingdom height=142 width=290></div>`)[0];
+            popup_c2a462b41397454482637f356adfb83b.setContent(html_15dd6fc6bca640ef81390896d0406d5c);
+        
+
+        marker_91d5a5a910b54311ba53f2c7d5409ee6.bindPopup(popup_c2a462b41397454482637f356adfb83b)
+        ;
+
+        
+    
+    
+            var marker_cd576c6332a144b9902d585fae3b19df = L.marker(
+                [19.103127, 72.824639],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_d173730f4ea54b04b3a89985e7d70460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_cd576c6332a144b9902d585fae3b19df.setIcon(icon_d173730f4ea54b04b3a89985e7d70460);
+        
+    
+        var popup_69d86a44c86b434cbdaf0390e6d553ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41d156888f6d47b4a2752c33608bc6ec = $(`<div id="html_41d156888f6d47b4a2752c33608bc6ec" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Juhu Beach<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Juhu Beach height=142 width=290></div>`)[0];
+            popup_69d86a44c86b434cbdaf0390e6d553ad.setContent(html_41d156888f6d47b4a2752c33608bc6ec);
+        
+
+        marker_cd576c6332a144b9902d585fae3b19df.bindPopup(popup_69d86a44c86b434cbdaf0390e6d553ad)
+        ;
+
+        
+    
+    
+            var marker_76b536c599054ccb88fafb7bb20b4e61 = L.marker(
+                [19.046523999999998, 72.822517],
+                {}
+            ).addTo(feature_group_30f586f3873c4f21a6bf7fc2931e412b);
+        
+    
+            var icon_6577d7ac21794aee90fdadd1e3bfce9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_76b536c599054ccb88fafb7bb20b4e61.setIcon(icon_6577d7ac21794aee90fdadd1e3bfce9a);
+        
+    
+        var popup_20f3219da63247e5aeba72b566ff0eaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dae47fbf18934d918edf587be608fccd = $(`<div id="html_dae47fbf18934d918edf587be608fccd" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Mount Mary Basilica<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Church height=142 width=290></div>`)[0];
+            popup_20f3219da63247e5aeba72b566ff0eaa.setContent(html_dae47fbf18934d918edf587be608fccd);
+        
+
+        marker_76b536c599054ccb88fafb7bb20b4e61.bindPopup(popup_20f3219da63247e5aeba72b566ff0eaa)
+        ;
+
+        
+    
+</script>

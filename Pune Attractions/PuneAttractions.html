@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5359d6ca06b4b2387ce533dc56f5366 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c5359d6ca06b4b2387ce533dc56f5366" ></div>
+        
+</body>
+<script>    
+    
+            var map_c5359d6ca06b4b2387ce533dc56f5366 = L.map(
+                "map_c5359d6ca06b4b2387ce533dc56f5366",
+                {
+                    center: [18.516726, 73.856255],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2248016b3c3415b9e33e7ecfdc36a83 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c5359d6ca06b4b2387ce533dc56f5366);
+        
+    
+            var feature_group_cec03daf399946a69cd721e3fd94898e = L.featureGroup(
+                {}
+            ).addTo(map_c5359d6ca06b4b2387ce533dc56f5366);
+        
+    
+            var marker_f728d724443c4e3ab41b25857154c14e = L.marker(
+                [18.5181, 73.8533],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_086978b0b62e4b34be2cb98c33720cba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_f728d724443c4e3ab41b25857154c14e.setIcon(icon_086978b0b62e4b34be2cb98c33720cba);
+        
+    
+        var popup_fa967518dac844149f4419ebb7a2bbdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6d9c04e87e6444b946cbe9de424a691 = $(`<div id="html_a6d9c04e87e6444b946cbe9de424a691" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Shaniwar Wada Palace<br> <b>More Info: </b><a href=/Patt1>click here</a><br> <img src=https://www.treebo.com/blog/wp-content/uploads/2016/01/Shaniwar-Wada-Palace.jpg height=142 width=290></div>`)[0];
+            popup_fa967518dac844149f4419ebb7a2bbdf.setContent(html_a6d9c04e87e6444b946cbe9de424a691);
+        
+
+        marker_f728d724443c4e3ab41b25857154c14e.bindPopup(popup_fa967518dac844149f4419ebb7a2bbdf)
+        ;
+
+        
+    
+    
+            var marker_79a78126244744ecaad08e23f3d37624 = L.marker(
+                [18.5525, 73.9015],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_d4b8fdb6e90045c5a785945681eb5968 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_79a78126244744ecaad08e23f3d37624.setIcon(icon_d4b8fdb6e90045c5a785945681eb5968);
+        
+    
+        var popup_0c5af073a0484002b39abaef7702d62a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f0e41957ff342de911648fbbacec47b = $(`<div id="html_9f0e41957ff342de911648fbbacec47b" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Aga khan Palace<br> <b>More Info: </b><a href=/Patt2>click here</a><br> <img src=https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/e7/79/24/aga-khan-palace.jpg?w=600&h=-1&s=1 height=142 width=290></div>`)[0];
+            popup_0c5af073a0484002b39abaef7702d62a.setContent(html_9f0e41957ff342de911648fbbacec47b);
+        
+
+        marker_79a78126244744ecaad08e23f3d37624.bindPopup(popup_0c5af073a0484002b39abaef7702d62a)
+        ;
+
+        
+    
+    
+            var marker_0a932830100d4be6a1cc1da558862048 = L.marker(
+                [18.4949, 73.8441],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_600a52ebf18043908a9aceea2d261c89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_0a932830100d4be6a1cc1da558862048.setIcon(icon_600a52ebf18043908a9aceea2d261c89);
+        
+    
+        var popup_9ac9c3ba691944cfaecc69dbf07b83e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b1d9a4031134e798de04ae7ee4f87eb = $(`<div id="html_1b1d9a4031134e798de04ae7ee4f87eb" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Parvati Hill<br> <b>More Info: </b><a href=/Patt3>click here</a><br> <img src=https://upload.wikimedia.org/wikipedia/commons/9/95/Parvati.JPG height=142 width=290></div>`)[0];
+            popup_9ac9c3ba691944cfaecc69dbf07b83e0.setContent(html_1b1d9a4031134e798de04ae7ee4f87eb);
+        
+
+        marker_0a932830100d4be6a1cc1da558862048.bindPopup(popup_9ac9c3ba691944cfaecc69dbf07b83e0)
+        ;
+
+        
+    
+    
+            var marker_1231574808884d969a70e29f09cde02b = L.marker(
+                [18.3663, 73.7559],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_97cc5da9f24648f39f7b2fd7526a6dd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1231574808884d969a70e29f09cde02b.setIcon(icon_97cc5da9f24648f39f7b2fd7526a6dd2);
+        
+    
+        var popup_833da5f6b5444112bb3d933943fbcf92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15c1e7ea144b49c390a762b24148210c = $(`<div id="html_15c1e7ea144b49c390a762b24148210c" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Sinhagad Fort<br> <b>More Info: </b><a href=/Patt4>click here</a><br> <img src=https://www.treebo.com/blog/wp-content/uploads/2018/02/Sinhagad-Fort-1.jpg height=142 width=290></div>`)[0];
+            popup_833da5f6b5444112bb3d933943fbcf92.setContent(html_15c1e7ea144b49c390a762b24148210c);
+        
+
+        marker_1231574808884d969a70e29f09cde02b.bindPopup(popup_833da5f6b5444112bb3d933943fbcf92)
+        ;
+
+        
+    
+    
+            var marker_b5428b48a97749f3898a56727c16f260 = L.marker(
+                [18.4478, 73.8807],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_fca94b6216074b80a72d3725deb657c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b5428b48a97749f3898a56727c16f260.setIcon(icon_fca94b6216074b80a72d3725deb657c9);
+        
+    
+        var popup_31bf0636a3aa4f6ebf2baac80cb84b5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b74638abca9e419dae3ff80075dfbee4 = $(`<div id="html_b74638abca9e419dae3ff80075dfbee4" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>ISCKON NVCC Temple<br> <b>More Info: </b><a href=/Patt5>click here</a><br> <img src=https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6f/c5/16/iskcon-nvcc-temple.jpg?w=1200&h=-1&s=1 height=142 width=290></div>`)[0];
+            popup_31bf0636a3aa4f6ebf2baac80cb84b5a.setContent(html_b74638abca9e419dae3ff80075dfbee4);
+        
+
+        marker_b5428b48a97749f3898a56727c16f260.bindPopup(popup_31bf0636a3aa4f6ebf2baac80cb84b5a)
+        ;
+
+        
+    
+    
+            var marker_e215eba651664ee2a740fcbf544c1ee0 = L.marker(
+                [18.522000000000002, 73.891],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_15841db642ae4ac6b7af927698918324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_e215eba651664ee2a740fcbf544c1ee0.setIcon(icon_15841db642ae4ac6b7af927698918324);
+        
+    
+        var popup_b36c3b6219d447a2b9e73d38385f46e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f81388c8305a4d4e868181b362b1d34d = $(`<div id="html_f81388c8305a4d4e868181b362b1d34d" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>National War Museum<br> <b>More Info: </b><a href=/Patt6>click here</a><br> <img src=https://www.treebo.com/blog/wp-content/uploads/2016/01/National-War-Museum.jpg height=142 width=290></div>`)[0];
+            popup_b36c3b6219d447a2b9e73d38385f46e6.setContent(html_f81388c8305a4d4e868181b362b1d34d);
+        
+
+        marker_e215eba651664ee2a740fcbf544c1ee0.bindPopup(popup_b36c3b6219d447a2b9e73d38385f46e6)
+        ;
+
+        
+    
+    
+            var marker_594cf4e25a704f96a130e0bcb6ec391a = L.marker(
+                [18.5621, 73.9167],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_08fe747a90ef4de793a6c5bccb17430c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_594cf4e25a704f96a130e0bcb6ec391a.setIcon(icon_08fe747a90ef4de793a6c5bccb17430c);
+        
+    
+        var popup_7bf664037565440483dcd3fabd96dadb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b24ea605f534c65a02b4bfd05cf26c1 = $(`<div id="html_2b24ea605f534c65a02b4bfd05cf26c1" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Phoenix Market City<br> <b>More Info: </b><a href=/Patt7>click here</a><br> <img src=https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/9c/f3/75/phoenix-market-city.jpg?w=600&h=-1&s= height=142 width=290></div>`)[0];
+            popup_7bf664037565440483dcd3fabd96dadb.setContent(html_2b24ea605f534c65a02b4bfd05cf26c1);
+        
+
+        marker_594cf4e25a704f96a130e0bcb6ec391a.bindPopup(popup_7bf664037565440483dcd3fabd96dadb)
+        ;
+
+        
+    
+    
+            var marker_60e56cfdb17d413b9eb7428bbb5b0925 = L.marker(
+                [18.4529, 73.8611],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_fd5bb74be5824a1c9af3c12641eae957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_60e56cfdb17d413b9eb7428bbb5b0925.setIcon(icon_fd5bb74be5824a1c9af3c12641eae957);
+        
+    
+        var popup_ff47e874eabe4c1f990578b100773321 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4871fb2de1ac4b2b9bc5748329d47f2d = $(`<div id="html_4871fb2de1ac4b2b9bc5748329d47f2d" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Rajiv Ghandi Zoological Park<br> <b>More Info: </b><a href=/Patt8>click here</a><br> <img src=https://www.treebo.com/blog/wp-content/uploads/2016/01/Rajiv-Gandhi-Zoological-Park.jpg height=142 width=290></div>`)[0];
+            popup_ff47e874eabe4c1f990578b100773321.setContent(html_4871fb2de1ac4b2b9bc5748329d47f2d);
+        
+
+        marker_60e56cfdb17d413b9eb7428bbb5b0925.bindPopup(popup_ff47e874eabe4c1f990578b100773321)
+        ;
+
+        
+    
+    
+            var marker_f64880d8ec54442ca8bf0fed5a10f8c4 = L.marker(
+                [18.5107, 73.8544],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_7713c611ab184caba7709ddb6825de54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_f64880d8ec54442ca8bf0fed5a10f8c4.setIcon(icon_7713c611ab184caba7709ddb6825de54);
+        
+    
+        var popup_76a2d558c6e04aeeb194d8588ae8d5ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_224d468fe471464cb7e87df03bc32812 = $(`<div id="html_224d468fe471464cb7e87df03bc32812" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Raja Dinkar Kelkar Museum<br> <b>More Info: </b><a href=/Patt9>click here</a><br> <img src=https://www.treebo.com/blog/wp-content/uploads/2016/01/Raja-Dinkar-Kelkar-Museum.jpg height=142 width=290></div>`)[0];
+            popup_76a2d558c6e04aeeb194d8588ae8d5ca.setContent(html_224d468fe471464cb7e87df03bc32812);
+        
+
+        marker_f64880d8ec54442ca8bf0fed5a10f8c4.bindPopup(popup_76a2d558c6e04aeeb194d8588ae8d5ca)
+        ;
+
+        
+    
+    
+            var marker_02de50d2c6144487815e302202d4f590 = L.marker(
+                [18.5187, 73.8566],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_607d084d01594273afdedf11a2d078a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_02de50d2c6144487815e302202d4f590.setIcon(icon_607d084d01594273afdedf11a2d078a7);
+        
+    
+        var popup_0858cc4d0191494a917c44b15409a257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17676d5b24524353aa5faf3fc4cf7cd1 = $(`<div id="html_17676d5b24524353aa5faf3fc4cf7cd1" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Lal Mahal<br> <b>More Info: </b><a href=/Patt10>click here</a><br> <img src=https://www.treebo.com/blog/wp-content/uploads/2016/01/Lal-Mahal.jpg height=142 width=290></div>`)[0];
+            popup_0858cc4d0191494a917c44b15409a257.setContent(html_17676d5b24524353aa5faf3fc4cf7cd1);
+        
+
+        marker_02de50d2c6144487815e302202d4f590.bindPopup(popup_0858cc4d0191494a917c44b15409a257)
+        ;
+
+        
+    
+    
+            var marker_01702a3200f34296b4ded23fed184c9a = L.marker(
+                [18.516389999999998, 73.855835],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_b5251fb1b595459781bd801c64a36853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_01702a3200f34296b4ded23fed184c9a.setIcon(icon_b5251fb1b595459781bd801c64a36853);
+        
+    
+        var popup_05bb37ba3fec42f993af67bf6ead70b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08379c2eb402450fb1ae6f4b5fbdcdb4 = $(`<div id="html_08379c2eb402450fb1ae6f4b5fbdcdb4" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Dagadusheth Halwai Ganapati Temple<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Dagdusheth Halwai height=142 width=290></div>`)[0];
+            popup_05bb37ba3fec42f993af67bf6ead70b7.setContent(html_08379c2eb402450fb1ae6f4b5fbdcdb4);
+        
+
+        marker_01702a3200f34296b4ded23fed184c9a.bindPopup(popup_05bb37ba3fec42f993af67bf6ead70b7)
+        ;
+
+        
+    
+    
+            var marker_cbb859230333434d8496608b76a3591e = L.marker(
+                [18.518955, 73.943062],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_e22f060b60294d86b53ca2995ae7ab6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_cbb859230333434d8496608b76a3591e.setIcon(icon_e22f060b60294d86b53ca2995ae7ab6e);
+        
+    
+        var popup_8518caf42f894531889f58ee4beebc9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a81439861d4b42a6df04223f503c3a = $(`<div id="html_75a81439861d4b42a6df04223f503c3a" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Amanora Mall<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Amanora height=142 width=290></div>`)[0];
+            popup_8518caf42f894531889f58ee4beebc9e.setContent(html_75a81439861d4b42a6df04223f503c3a);
+        
+
+        marker_cbb859230333434d8496608b76a3591e.bindPopup(popup_8518caf42f894531889f58ee4beebc9e)
+        ;
+
+        
+    
+    
+            var marker_b814818ce63c49b0b70b9af968b6db16 = L.marker(
+                [18.44934, 73.42272],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_332a1267e0df4d37ac5293a7301ebd61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_b814818ce63c49b0b70b9af968b6db16.setIcon(icon_332a1267e0df4d37ac5293a7301ebd61);
+        
+    
+        var popup_13f1b0319b044d26b35132315594a84e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6975b4baa5d2499496cec372843e5409 = $(`<div id="html_6975b4baa5d2499496cec372843e5409" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Tamhini Ghat<br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Tamhini Ghat height=142 width=290></div>`)[0];
+            popup_13f1b0319b044d26b35132315594a84e.setContent(html_6975b4baa5d2499496cec372843e5409);
+        
+
+        marker_b814818ce63c49b0b70b9af968b6db16.bindPopup(popup_13f1b0319b044d26b35132315594a84e)
+        ;
+
+        
+    
+    
+            var marker_63d8fd3b71824ed089c71d4558aec381 = L.marker(
+                [18.52692, 73.849861],
+                {}
+            ).addTo(feature_group_cec03daf399946a69cd721e3fd94898e);
+        
+    
+            var icon_27283b899c804fd68a5eea2e3df87451 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_63d8fd3b71824ed089c71d4558aec381.setIcon(icon_27283b899c804fd68a5eea2e3df87451);
+        
+    
+        var popup_d8033d9fd01e4be38d7b7c26d78abee9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c8416b85ffe4a9298011abb488c7a72 = $(`<div id="html_0c8416b85ffe4a9298011abb488c7a72" style="width: 100.0%; height: 100.0%;"><b>Name  : </b>Patalehswar Temple <br> <b>More Info: </b><a href=nan>click here</a><br> <img src=https://source.unsplash.com/1920x1080/?Caves height=142 width=290></div>`)[0];
+            popup_d8033d9fd01e4be38d7b7c26d78abee9.setContent(html_0c8416b85ffe4a9298011abb488c7a72);
+        
+
+        marker_63d8fd3b71824ed089c71d4558aec381.bindPopup(popup_d8033d9fd01e4be38d7b7c26d78abee9)
+        ;
+
+        
+    
+</script>
