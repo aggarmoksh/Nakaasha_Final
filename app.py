@@ -88,7 +88,7 @@ def mess():
      Email = request.form['Email']
      Message = request.form['Message']
      insertMessage(Name,Email,Message)
-     return "Message Sent"
+     return render_template('Home_Main.html',msg1="Message Sent")
     else:
         return "Unsuccesful"
 
@@ -154,7 +154,7 @@ def PuneMap2():
 
 @app.route('/PMap3', methods=['POST','GET'])
 def PuneMap3():    
-    return render_template('Pune_Maps/Anudh.html')
+    return render_template('Pune_Maps/Aundh.html')
 
 @app.route('/PMap4', methods=['POST','GET'])
 def PuneMap4():    
@@ -162,7 +162,7 @@ def PuneMap4():
 
 @app.route('/PMap5', methods=['POST','GET'])
 def PuneMap5():    
-    return render_template('Pune_Maps/Budhwa Peth.html')
+    return render_template('Pune_Maps/Budhwar Peth.html')
 
 @app.route('/PMap6', methods=['POST','GET'])
 def PuneMap6():    
